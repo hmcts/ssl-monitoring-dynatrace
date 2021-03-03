@@ -22,7 +22,7 @@ type ManagementZone struct {
 func GetAllMgmtZones(environment string,endpointUrl string){
     client := http.Client{}
 	req, err := http.NewRequest("GET", endpointUrl, nil)
-	req.Header.Add("Authorization", "Api-Token I1RtfySETHGKBGasu0Q-e")
+	req.Header.Add("Authorization", "Api-Token")
     resp, err := client.Do(req)
 
     if err != nil {
