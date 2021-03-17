@@ -36,7 +36,7 @@ dynatrace_req_headers["Content-Type"] = "application/json"
 dynatrace_registration_req_data = {"pluginId": dynatrace_plugin, "name": endpointname, "enabled": True,
                                     "properties": {"ClusterAddress": base_url,
                                                   "ExpirationDelta": "10", "DomainsToIgnore": "",
-                                                  "ApiToken": "","OutboundMetricNames":csm_metrickeys_domainout,"InboundMetricNames":csm_metrickeys_domainout},
+                                                  "ApiToken": "{}".format(dynatrace_api_key),"OutboundMetricNames":csm_metrickeys_domainout,"InboundMetricNames":csm_metrickeys_domainout},
                                     "activeGatePluginModule": {"id": plugin_module_id, "name": activegate_instance_name}}
 dynatrace_registration_data = json.dumps(dynatrace_registration_req_data).encode("utf-8")
 dynatrace_registration_url = 'https://yrk32651.live.dynatrace.com/api/config/v1/plugins/custom.remote.python.sslCheck/endpoints/6691303106622817277'
