@@ -3,6 +3,7 @@
 import yaml
 import requests
 import json
+import os
 from urllib import request as url_request
 
 
@@ -44,6 +45,7 @@ for doc in parsed_yaml_file["config"]:
 print(csm_metrickeys_domainin)
 print(csm_metrickeys_domainout)
 
+dynatrace_api_key = os.environ["DYNATRACE_API_KEY"]
 filepath = './nonprod/sslchecker-endpoint/sslCheckerEndpointTemplate.json'
 with open(filepath) as fh:
    mydata = fh.read()
@@ -56,7 +58,7 @@ with open(filepath) as fh:
    print(data_json)
    response = requests.put('https://yrk32651.live.dynatrace.com/api/config/v1/plugins/custom.remote.python.sslCheck/endpoints/6691303106622817277',
       data=mydata,                         
-      headers={'content-type':'application/json','Authorization': 'Api-Token I1RtfySETHGKBGasu0Q-e'},
+      headers={'content-type':'application/json','Authorization{}'.format(dynatrace_api_key)},
       params={'file': filepath},
       allow_redirects=True
     )
