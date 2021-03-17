@@ -16,6 +16,7 @@ jobs:
       inputs:
         scriptType: bash
         scriptLocation: scriptPath
+        azureSubscription: '$(azureSubscription)'
         scriptPath: config/deploy.sh
     - task: PythonScript@0
       inputs:
