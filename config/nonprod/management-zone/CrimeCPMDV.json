@@ -1,0 +1,134 @@
+{
+ "dimensionalRules": [],
+ "metadata": {
+  "clusterVersion": "1.212.88.20210305-151445",
+  "configurationVersions": [
+   0
+  ]
+ },
+ "name": "{{.name}}",
+ "rules": [
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "TAG",
+      "value": {
+       "context": "CONTEXTLESS",
+       "key": "Department",
+       "value": "CRIME"
+      }
+     },
+     "key": {
+      "attribute": "PROCESS_GROUP_TAGS"
+     }
+    },
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "TAG",
+      "value": {
+       "context": "CONTEXTLESS",
+       "key": "Environment",
+       "value": "MDV"
+      }
+     },
+     "key": {
+      "attribute": "PROCESS_GROUP_TAGS"
+     }
+    },
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "TAG",
+      "value": {
+       "context": "CONTEXTLESS",
+       "key": "Application",
+       "value": "CP"
+      }
+     },
+     "key": {
+      "attribute": "PROCESS_GROUP_TAGS"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [
+    "PROCESS_GROUP_TO_SERVICE",
+    "PROCESS_GROUP_TO_HOST"
+   ],
+   "type": "PROCESS_GROUP"
+  },
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "INDEXED_NAME",
+      "value": "Strategic Platform - non-live"
+     },
+     "key": {
+      "attribute": "AZURE_SUBSCRIPTION_NAME"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [
+    "AZURE_TO_PG",
+    "AZURE_TO_SERVICE"
+   ],
+   "type": "AZURE"
+  },
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "caseSensitive": false,
+      "negate": false,
+      "operator": "BEGINS_WITH",
+      "type": "STRING",
+      "value": "azure"
+     },
+     "key": {
+      "attribute": "CUSTOM_DEVICE_GROUP_NAME"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [
+    "CUSTOM_DEVICE_GROUP_TO_CUSTOM_DEVICE"
+   ],
+   "type": "CUSTOM_DEVICE_GROUP"
+  },
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "INDEXED_TAG",
+      "value": {
+       "context": "CONTEXTLESS",
+       "key": "Azure Entities",
+       "value": "Crime CP Non-live"
+      }
+     },
+     "key": {
+      "attribute": "AZURE_ENTITY_TAGS"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [
+    "AZURE_TO_PG",
+    "AZURE_TO_SERVICE"
+   ],
+   "type": "AZURE"
+  }
+ ]
+}

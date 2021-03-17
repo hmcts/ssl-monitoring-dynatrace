@@ -1,0 +1,49 @@
+{
+ "dimensionalRules": [],
+ "metadata": {
+  "clusterVersion": "1.212.88.20210305-151445",
+  "configurationVersions": [
+   0
+  ]
+ },
+ "name": "{{.name}}",
+ "rules": [
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "caseSensitive": false,
+      "negate": false,
+      "operator": "CONTAINS",
+      "type": "STRING",
+      "value": "forgerock"
+     },
+     "key": {
+      "attribute": "HOST_NAME"
+     }
+    },
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "TAG",
+      "value": {
+       "context": "CONTEXTLESS",
+       "key": "Environment",
+       "value": "AAT"
+      }
+     },
+     "key": {
+      "attribute": "HOST_TAGS"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [
+    "SERVICE_TO_HOST_LIKE",
+    "SERVICE_TO_PROCESS_GROUP_LIKE"
+   ],
+   "type": "SERVICE"
+  }
+ ]
+}

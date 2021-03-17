@@ -1,5 +1,4 @@
 package main
-
 import (
     "encoding/json"
     "fmt"
@@ -19,10 +18,10 @@ type ManagementZone struct {
     ManagementZoneName string `json:"name"`
 }
 
-func GetAllMgmtZones(environment string,endpointUrl string){
+func GetAllMgmtZones(endpointUrl string){
     client := http.Client{}
 	req, err := http.NewRequest("GET", endpointUrl, nil)
-	req.Header.Add("Authorization", "Api-Token")
+	req.Header.Add("Authorization", "Api-Token I1RtfySETHGKBGasu0Q-e")
     resp, err := client.Do(req)
 
     if err != nil {

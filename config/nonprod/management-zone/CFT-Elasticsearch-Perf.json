@@ -1,0 +1,49 @@
+{
+ "dimensionalRules": [],
+ "metadata": {
+  "clusterVersion": "1.212.88.20210305-151445",
+  "configurationVersions": [
+   0
+  ]
+ },
+ "name": "{{.name}}",
+ "rules": [
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "caseSensitive": true,
+      "negate": false,
+      "operator": "BEGINS_WITH",
+      "type": "STRING",
+      "value": "ccd-data"
+     },
+     "key": {
+      "attribute": "HOST_NAME"
+     }
+    },
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "TAG",
+      "value": {
+       "context": "CONTEXTLESS",
+       "key": "Environment",
+       "value": "PERF"
+      }
+     },
+     "key": {
+      "attribute": "HOST_TAGS"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [
+    "PROCESS_GROUP_TO_SERVICE",
+    "PROCESS_GROUP_TO_HOST"
+   ],
+   "type": "PROCESS_GROUP"
+  }
+ ]
+}

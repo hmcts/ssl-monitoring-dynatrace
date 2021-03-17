@@ -1,0 +1,84 @@
+{
+ "dimensionalRules": [],
+ "metadata": {
+  "clusterVersion": "1.212.88.20210305-151445",
+  "configurationVersions": [
+   0
+  ]
+ },
+ "name": "{{.name}}",
+ "rules": [
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "caseSensitive": true,
+      "negate": false,
+      "operator": "BEGINS_WITH",
+      "type": "STRING",
+      "value": "rpe-send-letter"
+     },
+     "key": {
+      "attribute": "PROCESS_GROUP_PREDEFINED_METADATA",
+      "dynamicKey": "KUBERNETES_FULL_POD_NAME",
+      "type": "PROCESS_PREDEFINED_METADATA_KEY"
+     }
+    },
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "TAG",
+      "value": {
+       "context": "CONTEXTLESS",
+       "key": "Environment",
+       "value": "PERF"
+      }
+     },
+     "key": {
+      "attribute": "SERVICE_TAGS"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [
+    "SERVICE_TO_HOST_LIKE",
+    "SERVICE_TO_PROCESS_GROUP_LIKE"
+   ],
+   "type": "SERVICE"
+  },
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "SERVICE_TYPE",
+      "value": "DATABASE_SERVICE"
+     },
+     "key": {
+      "attribute": "SERVICE_TYPE"
+     }
+    },
+    {
+     "comparisonInfo": {
+      "caseSensitive": true,
+      "negate": false,
+      "operator": "BEGINS_WITH",
+      "type": "STRING",
+      "value": "send_letter"
+     },
+     "key": {
+      "attribute": "SERVICE_DATABASE_NAME"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [
+    "SERVICE_TO_HOST_LIKE",
+    "SERVICE_TO_PROCESS_GROUP_LIKE"
+   ],
+   "type": "SERVICE"
+  }
+ ]
+}

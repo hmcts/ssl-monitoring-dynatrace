@@ -1,0 +1,269 @@
+{
+ "dimensionalRules": [],
+ "metadata": {
+  "clusterVersion": "1.212.88.20210305-151445",
+  "configurationVersions": [
+   0
+  ]
+ },
+ "name": "{{.name}}",
+ "rules": [
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "TAG",
+      "value": {
+       "context": "CONTEXTLESS",
+       "key": "Department",
+       "value": "CFT"
+      }
+     },
+     "key": {
+      "attribute": "PROCESS_GROUP_TAGS"
+     }
+    },
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "TAG",
+      "value": {
+       "context": "CONTEXTLESS",
+       "key": "NS",
+       "value": "idam"
+      }
+     },
+     "key": {
+      "attribute": "PROCESS_GROUP_TAGS"
+     }
+    },
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "TAG",
+      "value": {
+       "context": "CONTEXTLESS",
+       "key": "Environment",
+       "value": "PERF"
+      }
+     },
+     "key": {
+      "attribute": "PROCESS_GROUP_TAGS"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [
+    "PROCESS_GROUP_TO_SERVICE",
+    "PROCESS_GROUP_TO_HOST"
+   ],
+   "type": "PROCESS_GROUP"
+  },
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "SERVICE_TYPE",
+      "value": "DATABASE_SERVICE"
+     },
+     "key": {
+      "attribute": "SERVICE_TYPE"
+     }
+    },
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "TAG",
+      "value": {
+       "context": "CONTEXTLESS",
+       "key": "CFT Database",
+       "value": "idam "
+      }
+     },
+     "key": {
+      "attribute": "SERVICE_TAGS"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [
+    "SERVICE_TO_HOST_LIKE",
+    "SERVICE_TO_PROCESS_GROUP_LIKE"
+   ],
+   "type": "SERVICE"
+  },
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "caseSensitive": true,
+      "negate": false,
+      "operator": "CONTAINS",
+      "type": "STRING",
+      "value": "IDAM"
+     },
+     "key": {
+      "attribute": "WEB_APPLICATION_NAME"
+     }
+    },
+    {
+     "comparisonInfo": {
+      "caseSensitive": true,
+      "negate": false,
+      "operator": "CONTAINS",
+      "type": "STRING",
+      "value": "Perf"
+     },
+     "key": {
+      "attribute": "WEB_APPLICATION_NAME"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [],
+   "type": "WEB_APPLICATION"
+  },
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "TAG",
+      "value": {
+       "context": "CONTEXTLESS",
+       "key": "Application",
+       "value": "IDAM"
+      }
+     },
+     "key": {
+      "attribute": "PROCESS_GROUP_TAGS"
+     }
+    },
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "TAG",
+      "value": {
+       "context": "CONTEXTLESS",
+       "key": "Department",
+       "value": "CFT"
+      }
+     },
+     "key": {
+      "attribute": "PROCESS_GROUP_TAGS"
+     }
+    },
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "TAG",
+      "value": {
+       "context": "CONTEXTLESS",
+       "key": "Environment",
+       "value": "PERF"
+      }
+     },
+     "key": {
+      "attribute": "PROCESS_GROUP_TAGS"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [
+    "PROCESS_GROUP_TO_SERVICE",
+    "PROCESS_GROUP_TO_HOST"
+   ],
+   "type": "PROCESS_GROUP"
+  },
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "SERVICE_TYPE",
+      "value": "DATABASE_SERVICE"
+     },
+     "key": {
+      "attribute": "SERVICE_TYPE"
+     }
+    },
+    {
+     "comparisonInfo": {
+      "caseSensitive": false,
+      "negate": false,
+      "operator": "CONTAINS",
+      "type": "STRING",
+      "value": "idam"
+     },
+     "key": {
+      "attribute": "SERVICE_DATABASE_HOST_NAME"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [
+    "SERVICE_TO_HOST_LIKE",
+    "SERVICE_TO_PROCESS_GROUP_LIKE"
+   ],
+   "type": "SERVICE"
+  },
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "ENTITY_ID",
+      "value": "HOST_GROUP-543C020740BEAD77"
+     },
+     "key": {
+      "attribute": "HOST_GROUP_ID"
+     }
+    },
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "TAG_KEY_EQUALS",
+      "type": "TAG",
+      "value": {
+       "context": "CONTEXTLESS",
+       "key": "IDAM"
+      }
+     },
+     "key": {
+      "attribute": "HOST_TAGS"
+     }
+    },
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "TAG",
+      "value": {
+       "context": "CONTEXTLESS",
+       "key": "Environment",
+       "value": "PERF"
+      }
+     },
+     "key": {
+      "attribute": "HOST_TAGS"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [],
+   "type": "HOST"
+  }
+ ]
+}

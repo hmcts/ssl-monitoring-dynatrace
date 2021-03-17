@@ -1,0 +1,33 @@
+{
+ "dimensionalRules": [],
+ "metadata": {
+  "clusterVersion": "1.212.88.20210305-151445",
+  "configurationVersions": [
+   0
+  ]
+ },
+ "name": "{{.name}}",
+ "rules": [
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "TAG_KEY_EQUALS",
+      "type": "TAG",
+      "value": {
+       "context": "CONTEXTLESS",
+       "key": "Palo Alto Non-Prod (Perf \u0026 LDATA)"
+      }
+     },
+     "key": {
+      "attribute": "CUSTOM_DEVICE_TAGS"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [],
+   "type": "CUSTOM_DEVICE"
+  }
+ ]
+}

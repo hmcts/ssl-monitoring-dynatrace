@@ -1,0 +1,169 @@
+config:
+- CFT-AccessManagement-Perf: CFT-AccessManagement-Perf.json
+- CFT-LDATA: CFT-LDATA.json
+- CFT-BulkScan-Staging: CFT-BulkScan-Staging.json
+- SVCOFF: SVCOFF.json
+- CFT-ProfessionalReferenceData-Staging: CFT-ProfessionalReferenceData-Staging.json
+- CFT-IDAM-Sandbox: CFT-IDAM-Sandbox.json
+- CFT-FinancialRemedy-Perf: CFT-FinancialRemedy-Perf.json
+- CFT-Perf: CFT-Perf.json
+- Crime-IdAM-NFT: Crime-IdAM-NFT.json
+- CFT-EvidenceManagement-Staging: CFT-EvidenceManagement-Staging.json
+- CFT-FamilyPublicLaw-Staging: CFT-FamilyPublicLaw-Staging.json
+- DTS-CVP-Staging: DTS-CVP-Staging.json
+- CFT-Bulkprint-Staging: CFT-Bulkprint-Staging.json
+- CFT-CivilUnspec-Staging: CFT-CivilUnspec-Staging.json
+- CFT-CCD-Staging: CFT-CCD-Staging.json
+- CFT-Probate-Staging: CFT-Probate-Staging.json
+- CFT-PCQ-Staging: CFT-PCQ-Staging.json
+- Crime-CPNFT: Crime-CPNFT.json
+- CFT-CivilMoneyClaims-Staging: CFT-CivilMoneyClaims-Staging.json
+- CFT-Staging: CFT-Staging.json
+- Crime: Crime.json
+- CFT-FeesPayments-Staging: CFT-FeesPayments-Staging.json
+- CFT-PCQ-Perf: CFT-PCQ-Perf.json
+- CFT-Forgerock-Staging: CFT-Forgerock-Staging.json
+- CFT-SSCS-Perf: CFT-SSCS-Perf.json
+- CFT-AccessManagement-Staging: CFT-AccessManagement-Staging.json
+- CFT-LegalRepCMCUnspec: CFT-LegalRepCMCUnspec.json
+- CFT-Divorce-Staging: CFT-Divorce-Staging.json
+- CFT-Elasticsearch-Staging: CFT-Elasticsearch-Staging.json
+- CFT: CFT.json
+- Crime-ROTANFT: Crime-ROTANFT.json
+- CFT-ECM-Perf: CFT-ECM-Perf.json
+- CFT-ProfessionalReferenceData-Perf: CFT-ProfessionalReferenceData-Perf.json
+- CFT-EvidenceManagement-Perf: CFT-EvidenceManagement-Perf.json
+- CFT-Divorce-Perf: CFT-Divorce-Perf.json
+- DTS-CVP-Perf: DTS-CVP-Perf.json
+- CFT-ECM-LDATA: CFT-ECM-LDATA.json
+- DTS-HMI-Dev: DTS-HMI-Dev.json
+- CFT-ImmigrationandAsylum-Perf: CFT-ImmigrationandAsylum-Perf.json
+- CFT-PaloNon-ProdPerfLDATA: CFT-PaloNon-ProdPerfLDATA.json
+- CFT-SSCS-Staging: CFT-SSCS-Staging.json
+- CFT-Elasticsearch-Perf: CFT-Elasticsearch-Perf.json
+- CFT-CCD-Perf: CFT-CCD-Perf.json
+- CFT-IDAM-Perf: CFT-IDAM-Perf.json
+- CFT-XUI-Perf: CFT-XUI-Perf.json
+- CFT-ECM-Staging: CFT-ECM-Staging.json
+- CrimeCPMDV: CrimeCPMDV.json
+- CFT-FeesPayments-Perf: CFT-FeesPayments-Perf.json
+- CFT-FamilyPublicLaw-Perf: CFT-FamilyPublicLaw-Perf.json
+- CFT-BulkScan-Perf: CFT-BulkScan-Perf.json
+- CFT-IDAM-Staging: CFT-IDAM-Staging.json
+- CFT-Probate-Perf: CFT-Probate-Perf.json
+- CFT-FinancialRemedy-Staging: CFT-FinancialRemedy-Staging.json
+- CFT-XUI-Staging: CFT-XUI-Staging.json
+- CFT-ImmigrationandAsylum-Staging: CFT-ImmigrationandAsylum-Staging.json
+- CFT-Bulkprint-Perf: CFT-Bulkprint-Perf.json
+CFT:
+- name: CFT
+CFT-AccessManagement-Perf:
+- name: CFT - Access Management - Perf
+CFT-AccessManagement-Staging:
+- name: CFT - Access Management - Staging
+CFT-BulkScan-Perf:
+- name: CFT - Bulk Scan - Perf
+CFT-BulkScan-Staging:
+- name: CFT - Bulk Scan - Staging
+CFT-Bulkprint-Perf:
+- name: CFT - Bulkprint - Perf
+CFT-Bulkprint-Staging:
+- name: CFT - Bulkprint - Staging
+CFT-CCD-Perf:
+- name: CFT - CCD - Perf
+CFT-CCD-Staging:
+- name: CFT - CCD - Staging
+CFT-CivilMoneyClaims-Staging:
+- name: CFT - Civil Money Claims - Staging
+CFT-CivilUnspec-Staging:
+- name: CFT - Civil Unspec - Staging
+CFT-Divorce-Perf:
+- name: CFT - Divorce - Perf
+CFT-Divorce-Staging:
+- name: CFT - Divorce - Staging
+CFT-ECM-LDATA:
+- name: CFT - ECM - LDATA
+CFT-ECM-Perf:
+- name: CFT - ECM - Perf
+CFT-ECM-Staging:
+- name: CFT - ECM - Staging
+CFT-Elasticsearch-Perf:
+- name: CFT - Elasticsearch - Perf
+CFT-Elasticsearch-Staging:
+- name: CFT - Elasticsearch - Staging
+CFT-EvidenceManagement-Perf:
+- name: CFT - Evidence Management - Perf
+CFT-EvidenceManagement-Staging:
+- name: CFT - Evidence Management - Staging
+CFT-FamilyPublicLaw-Perf:
+- name: CFT - Family Public Law - Perf
+CFT-FamilyPublicLaw-Staging:
+- name: CFT - Family Public Law - Staging
+CFT-FeesPayments-Perf:
+- name: CFT - Fees & Payments - Perf
+CFT-FeesPayments-Staging:
+- name: CFT - Fees & Payments - Staging
+CFT-FinancialRemedy-Perf:
+- name: CFT - Financial Remedy - Perf
+CFT-FinancialRemedy-Staging:
+- name: CFT - Financial Remedy - Staging
+CFT-Forgerock-Staging:
+- name: CFT - Forgerock - Staging
+CFT-IDAM-Perf:
+- name: CFT - IDAM - Perf
+CFT-IDAM-Sandbox:
+- name: CFT - IDAM - Sandbox
+CFT-IDAM-Staging:
+- name: CFT - IDAM - Staging
+CFT-ImmigrationandAsylum-Perf:
+- name: CFT - Immigration and Asylum - Perf
+CFT-ImmigrationandAsylum-Staging:
+- name: CFT - Immigration and Asylum - Staging
+CFT-LDATA:
+- name: CFT - LDATA
+CFT-LegalRepCMCUnspec:
+- name: CFT - Legal Rep (CMC Unspec)
+CFT-PCQ-Perf:
+- name: CFT - PCQ - Perf
+CFT-PCQ-Staging:
+- name: CFT - PCQ - Staging
+CFT-PaloNon-ProdPerfLDATA:
+- name: CFT - Palo Non-Prod (Perf & LDATA)
+CFT-Perf:
+- name: CFT - Perf
+CFT-Probate-Perf:
+- name: CFT - Probate - Perf
+CFT-Probate-Staging:
+- name: CFT - Probate - Staging
+CFT-ProfessionalReferenceData-Perf:
+- name: CFT - Professional Reference Data - Perf
+CFT-ProfessionalReferenceData-Staging:
+- name: CFT - Professional Reference Data - Staging
+CFT-SSCS-Perf:
+- name: CFT - SSCS - Perf
+CFT-SSCS-Staging:
+- name: CFT - SSCS - Staging
+CFT-Staging:
+- name: CFT - Staging
+CFT-XUI-Perf:
+- name: CFT - XUI - Perf
+CFT-XUI-Staging:
+- name: CFT - XUI - Staging
+Crime:
+- name: Crime
+Crime-CPNFT:
+- name: Crime - CP (NFT)
+Crime-IdAM-NFT:
+- name: Crime - IdAM - NFT
+Crime-ROTANFT:
+- name: Crime - ROTA (NFT)
+CrimeCPMDV:
+- name: Crime CP (MDV)
+DTS-CVP-Perf:
+- name: DTS - CVP - Perf
+DTS-CVP-Staging:
+- name: DTS - CVP - Staging
+DTS-HMI-Dev:
+- name: DTS - HMI - Dev
+SVCOFF:
+- name: SVCOFF

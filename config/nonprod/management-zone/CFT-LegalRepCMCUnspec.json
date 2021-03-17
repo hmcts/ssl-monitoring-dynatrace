@@ -1,0 +1,34 @@
+{
+ "dimensionalRules": [],
+ "metadata": {
+  "clusterVersion": "1.212.88.20210305-151445",
+  "configurationVersions": [
+   0
+  ]
+ },
+ "name": "{{.name}}",
+ "rules": [
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "caseSensitive": true,
+      "negate": false,
+      "operator": "CONTAINS",
+      "type": "STRING",
+      "value": "cmc-legal"
+     },
+     "key": {
+      "attribute": "PROCESS_GROUP_NAME"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [
+    "PROCESS_GROUP_TO_SERVICE",
+    "PROCESS_GROUP_TO_HOST"
+   ],
+   "type": "PROCESS_GROUP"
+  }
+ ]
+}

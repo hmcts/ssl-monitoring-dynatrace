@@ -1,0 +1,5 @@
+2021-03-16 09:28:28 DEBUG request log not activated
+2021-03-16 09:28:28 DEBUG response log not activated
+2021-03-16 09:28:28 INFO  Dynatrace Monitoring as Code v1.5.0
+2021-03-16 09:28:28 DEBUG Reading projects...
+2021-03-16 09:28:28 FATAL Loading of projects failed: Project path does not exist: continue-on-error. (This needs to be a relative path from the current directory)

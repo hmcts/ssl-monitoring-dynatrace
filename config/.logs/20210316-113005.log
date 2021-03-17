@@ -1,0 +1,916 @@
+2021-03-16 11:30:05 DEBUG request log not activated
+2021-03-16 11:30:05 DEBUG response log not activated
+2021-03-16 11:30:05 INFO  Dynatrace Monitoring as Code v1.5.0
+2021-03-16 11:30:05 DEBUG Reading projects...
+2021-03-16 11:30:05 DEBUG   project - nonprod-project
+2021-03-16 11:30:05 DEBUG Processing file: nonprod-project/calculated-metrics-service/calculated-metrics-service.yaml
+2021-03-16 11:30:05 DEBUG Processing file: nonprod-project/management-zone/management-zone.yaml
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftecmperf has dep on nonprod-project/management-zone/CFT-ECM-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftecmperf has dep on nonprod-project/management-zone/CFT-ECM-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftforgerockstg has dep on nonprod-project/management-zone/CFT-Forgerock-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftforgerockstg has dep on nonprod-project/management-zone/CFT-Forgerock-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftpcqstg has dep on nonprod-project/management-zone/CFT-PCQ-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftpcqstg has dep on nonprod-project/management-zone/CFT-PCQ-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfeespaymentsstg has dep on nonprod-project/management-zone/CFT-FeesPayments-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfeespaymentsstg has dep on nonprod-project/management-zone/CFT-FeesPayments-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfamilypubliclawperf has dep on nonprod-project/management-zone/CFT-FamilyPublicLaw-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfamilypubliclawperf has dep on nonprod-project/management-zone/CFT-FamilyPublicLaw-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfeespaymentsperf has dep on nonprod-project/management-zone/CFT-FamilyPublicLaw-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfeespaymentsperf has dep on nonprod-project/management-zone/CFT-FamilyPublicLaw-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftccdstg has dep on nonprod-project/management-zone/CFT-CCD-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftccdstg has dep on nonprod-project/management-zone/CFT-CCD-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftelasticsearchstg has dep on nonprod-project/management-zone/CFT-Elasticsearch-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftelasticsearchstg has dep on nonprod-project/management-zone/CFT-Elasticsearch-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftbulkscanstg has dep on nonprod-project/management-zone/CFT-BulkScan-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftcivilmoneyclaimsstg has dep on nonprod-project/management-zone/CFT-CivilMoneyClaims-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftcivilmoneyclaimsstg has dep on nonprod-project/management-zone/CFT-CivilMoneyClaims-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftimmigrationandasylumperf has dep on nonprod-project/management-zone/CFT-ImmigrationandAsylum-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftimmigrationandasylumperf has dep on nonprod-project/management-zone/CFT-ImmigrationandAsylum-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftsscsstg has dep on nonprod-project/management-zone/CFT-SSCS-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftsscsstg has dep on nonprod-project/management-zone/CFT-SSCS-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftxuistg has dep on nonprod-project/management-zone/CFT-XUI-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftxuistg has dep on nonprod-project/management-zone/CFT-XUI-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkprintperf has dep on nonprod-project/management-zone/CFT-Bulkprint-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftbulkprintperf has dep on nonprod-project/management-zone/CFT-Bulkprint-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfinancialremedyperf has dep on nonprod-project/management-zone/CFT-FinancialRemedy-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfinancialremedyperf has dep on nonprod-project/management-zone/CFT-FinancialRemedy-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftdivorcestg has dep on nonprod-project/management-zone/CFT-Divorce-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftdivorcestg has dep on nonprod-project/management-zone/CFT-Divorce-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftevidencemanagementperf has dep on nonprod-project/management-zone/CFT-EvidenceManagement-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftevidencemanagementperf has dep on nonprod-project/management-zone/CFT-EvidenceManagement-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftbulkprintstg has dep on nonprod-project/management-zone/CFT-Bulkprint-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkprintstg has dep on nonprod-project/management-zone/CFT-Bulkprint-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftpalononprodldataperf has dep on nonprod-project/management-zone/CFT-PaloNon-ProdPerfLDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftpalononprodldataperf has dep on nonprod-project/management-zone/CFT-PaloNon-ProdPerfLDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftevidencemanagementstg has dep on nonprod-project/management-zone/CFT-EvidenceManagement-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftevidencemanagementstg has dep on nonprod-project/management-zone/CFT-EvidenceManagement-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftidamsbox has dep on nonprod-project/management-zone/CFT-IDAM-Sandbox
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftidamsbox has dep on nonprod-project/management-zone/CFT-IDAM-Sandbox
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftidamstg has dep on nonprod-project/management-zone/CFT-IDAM-Sandbox
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftidamstg has dep on nonprod-project/management-zone/CFT-IDAM-Sandbox
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfamilypubliclawstg has dep on nonprod-project/management-zone/CFT-FamilyPublicLaw-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfamilypubliclawstg has dep on nonprod-project/management-zone/CFT-FamilyPublicLaw-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkscanperf has dep on nonprod-project/management-zone/CFT-BulkScan-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftbulkscanperf has dep on nonprod-project/management-zone/CFT-BulkScan-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftpcqperf has dep on nonprod-project/management-zone/CFT-PCQ-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftpcqperf has dep on nonprod-project/management-zone/CFT-PCQ-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftecmldata has dep on nonprod-project/management-zone/CFT-ECM-LDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftecmldata has dep on nonprod-project/management-zone/CFT-ECM-LDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftelasticsearchperf has dep on nonprod-project/management-zone/CFT-Elasticsearch-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftelasticsearchperf has dep on nonprod-project/management-zone/CFT-Elasticsearch-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfinancialremedystg has dep on nonprod-project/management-zone/CFT-FinancialRemedy-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfinancialremedystg has dep on nonprod-project/management-zone/CFT-FinancialRemedy-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftprobatestg has dep on nonprod-project/management-zone/CFT-Probate-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftprobatestg has dep on nonprod-project/management-zone/CFT-Probate-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftaccessmanagementstg has dep on nonprod-project/management-zone/CFT-AccessManagement-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftaccessmanagementstg has dep on nonprod-project/management-zone/CFT-AccessManagement-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftxuiperf has dep on nonprod-project/management-zone/CFT-XUI-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftsscsperf has dep on nonprod-project/management-zone/CFT-SSCS-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftsscsperf has dep on nonprod-project/management-zone/CFT-SSCS-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftprobateperf has dep on nonprod-project/management-zone/CFT-Probate-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftprobateperf has dep on nonprod-project/management-zone/CFT-Probate-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftaccessmanagementperf has dep on nonprod-project/management-zone/CFT-AccessManagement-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftaccessmanagementperf has dep on nonprod-project/management-zone/CFT-AccessManagement-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftecmstg has dep on nonprod-project/management-zone/CFT-ECM-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftecmstg has dep on nonprod-project/management-zone/CFT-ECM-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftimmigrationandasylumstg has dep on nonprod-project/management-zone/CFT-ImmigrationandAsylum-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftimmigrationandasylumstg has dep on nonprod-project/management-zone/CFT-ImmigrationandAsylum-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftprofessionalreferencedataestg has dep on nonprod-project/management-zone/CFT-ProfessionalReferenceData-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftprofessionalreferencedataestg has dep on nonprod-project/management-zone/CFT-ProfessionalReferenceData-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftprofessionalreferencedataeperf has dep on nonprod-project/management-zone/CFT-ProfessionalReferenceData-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftprofessionalreferencedataeperf has dep on nonprod-project/management-zone/CFT-ProfessionalReferenceData-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftccdperf has dep on nonprod-project/management-zone/CFT-CCD-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftccdperf has dep on nonprod-project/management-zone/CFT-CCD-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftidamperf has dep on nonprod-project/management-zone/CFT-IDAM-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftidamperf has dep on nonprod-project/management-zone/CFT-IDAM-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftldata has dep on nonprod-project/management-zone/CFT-LDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftldata has dep on nonprod-project/management-zone/CFT-LDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftcivilunspecstg has dep on nonprod-project/management-zone/CFT-CivilUnspec-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftcivilunspecstg has dep on nonprod-project/management-zone/CFT-CivilUnspec-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftlegalrepcmcunspec has dep on nonprod-project/management-zone/CFT-LegalRepCMCUnspec
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftlegalrepcmcunspec has dep on nonprod-project/management-zone/CFT-LegalRepCMCUnspec
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftdivorceperf has dep on nonprod-project/management-zone/CFT-Divorce-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftdivorceperf has dep on nonprod-project/management-zone/CFT-Divorce-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Bulkprint-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Bulkprint-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-XUI-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-ProfessionalReferenceData-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-LegalRepCMCUnspec
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-LDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-AccessManagement-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-ImmigrationandAsylum-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Forgerock-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-FamilyPublicLaw-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Divorce-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-CivilMoneyClaims-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-ECM-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-ImmigrationandAsylum-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-EvidenceManagement-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-EvidenceManagement-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-ProfessionalReferenceData-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-SSCS-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-SSCS-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-FinancialRemedy-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-XUI-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Probate-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-PCQ-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-IDAM-Sandbox
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-BulkScan-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-PaloNon-ProdPerfLDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-FinancialRemedy-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Divorce-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Elasticsearch-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Elasticsearch-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-ECM-LDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-PCQ-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-IDAM-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-AccessManagement-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-CivilUnspec-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Probate-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-CCD-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-FeesPayments-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-FamilyPublicLaw-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-BulkScan-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-CCD-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-ECM-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/Crime
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/SVCOFF
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/DTS-CVP-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CrimeCPMDV
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/DTS-HMI-Dev
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/Crime-IdAM-NFT
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-IDAM-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/Crime-CPNFT
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/DTS-CVP-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-FeesPayments-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/Crime-ROTANFT
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkprintstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftbulkprintperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftxuistg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftprofessionalreferencedataestg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftlegalrepcmcunspec
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftldata
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftaccessmanagementperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftaccessmanagementperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftimmigrationandasylumstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftforgerockstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftforgerockstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfeespaymentsperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftdivorceperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftcivilmoneyclaimsstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftecmperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftcivilmoneyclaimsstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftimmigrationandasylumperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftimmigrationandasylumstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftevidencemanagementperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftevidencemanagementstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftprofessionalreferencedataeperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfeespaymentsperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftsscsperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftsscsstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfinancialremedystg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkscanstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftxuiperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftprobateperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftpcqperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftimmigrationandasylumperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftidamstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftevidencemanagementstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftbulkscanperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftpalononprodldataperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftidamstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftidamsbox
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfinancialremedyperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftdivorceperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftdivorcestg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfinancialremedyperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftelasticsearchstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftelasticsearchperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftecmldata
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftxuistg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftprobateperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftpcqstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftidamperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkprintperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftaccessmanagementstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftcivilunspecstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkscanperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftprobatestg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfamilypubliclawperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftdivorcestg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftsscsperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftprofessionalreferencedataestg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftccdstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfeespaymentsstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftprobatestg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftpcqstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftidamperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfeespaymentsstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfamilypubliclawstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftbulkscanstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftelasticsearchperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftccdperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftecmldata
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftaccessmanagementstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftldata
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfamilypubliclawstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftelasticsearchstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftevidencemanagementperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftecmstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftidamsbox
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftsscsstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftccdperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftccdstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftprofessionalreferencedataeperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftpalononprodldataperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftlegalrepcmcunspec
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfamilypubliclawperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftecmstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftbulkprintstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftecmperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftcivilunspecstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftpcqperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfinancialremedystg
+2021-03-16 11:30:05 DEBUG Processing file: nonprod-project/calculated-metrics-service/calculated-metrics-service.yaml
+2021-03-16 11:30:05 DEBUG Processing file: nonprod-project/management-zone/management-zone.yaml
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftbulkscanstg has dep on nonprod-project/management-zone/CFT-BulkScan-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftpalononprodldataperf has dep on nonprod-project/management-zone/CFT-PaloNon-ProdPerfLDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftpalononprodldataperf has dep on nonprod-project/management-zone/CFT-PaloNon-ProdPerfLDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftelasticsearchperf has dep on nonprod-project/management-zone/CFT-Elasticsearch-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftelasticsearchperf has dep on nonprod-project/management-zone/CFT-Elasticsearch-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftaccessmanagementperf has dep on nonprod-project/management-zone/CFT-AccessManagement-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftaccessmanagementperf has dep on nonprod-project/management-zone/CFT-AccessManagement-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftprobatestg has dep on nonprod-project/management-zone/CFT-Probate-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftprobatestg has dep on nonprod-project/management-zone/CFT-Probate-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftforgerockstg has dep on nonprod-project/management-zone/CFT-Forgerock-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftforgerockstg has dep on nonprod-project/management-zone/CFT-Forgerock-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkscanperf has dep on nonprod-project/management-zone/CFT-BulkScan-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftbulkscanperf has dep on nonprod-project/management-zone/CFT-BulkScan-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftidamperf has dep on nonprod-project/management-zone/CFT-IDAM-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftidamperf has dep on nonprod-project/management-zone/CFT-IDAM-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftsscsstg has dep on nonprod-project/management-zone/CFT-SSCS-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftsscsstg has dep on nonprod-project/management-zone/CFT-SSCS-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfamilypubliclawstg has dep on nonprod-project/management-zone/CFT-FamilyPublicLaw-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfamilypubliclawstg has dep on nonprod-project/management-zone/CFT-FamilyPublicLaw-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftaccessmanagementstg has dep on nonprod-project/management-zone/CFT-AccessManagement-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftaccessmanagementstg has dep on nonprod-project/management-zone/CFT-AccessManagement-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftprofessionalreferencedataestg has dep on nonprod-project/management-zone/CFT-ProfessionalReferenceData-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftprofessionalreferencedataestg has dep on nonprod-project/management-zone/CFT-ProfessionalReferenceData-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftbulkprintstg has dep on nonprod-project/management-zone/CFT-Bulkprint-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkprintstg has dep on nonprod-project/management-zone/CFT-Bulkprint-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftprobateperf has dep on nonprod-project/management-zone/CFT-Probate-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftprobateperf has dep on nonprod-project/management-zone/CFT-Probate-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfinancialremedystg has dep on nonprod-project/management-zone/CFT-FinancialRemedy-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfinancialremedystg has dep on nonprod-project/management-zone/CFT-FinancialRemedy-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftcivilunspecstg has dep on nonprod-project/management-zone/CFT-CivilUnspec-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftcivilunspecstg has dep on nonprod-project/management-zone/CFT-CivilUnspec-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftecmldata has dep on nonprod-project/management-zone/CFT-ECM-LDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftecmldata has dep on nonprod-project/management-zone/CFT-ECM-LDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftpcqstg has dep on nonprod-project/management-zone/CFT-PCQ-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftpcqstg has dep on nonprod-project/management-zone/CFT-PCQ-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftlegalrepcmcunspec has dep on nonprod-project/management-zone/CFT-LegalRepCMCUnspec
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftlegalrepcmcunspec has dep on nonprod-project/management-zone/CFT-LegalRepCMCUnspec
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftelasticsearchstg has dep on nonprod-project/management-zone/CFT-Elasticsearch-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftelasticsearchstg has dep on nonprod-project/management-zone/CFT-Elasticsearch-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftprofessionalreferencedataeperf has dep on nonprod-project/management-zone/CFT-ProfessionalReferenceData-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftprofessionalreferencedataeperf has dep on nonprod-project/management-zone/CFT-ProfessionalReferenceData-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftbulkprintperf has dep on nonprod-project/management-zone/CFT-Bulkprint-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkprintperf has dep on nonprod-project/management-zone/CFT-Bulkprint-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftsscsperf has dep on nonprod-project/management-zone/CFT-SSCS-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftsscsperf has dep on nonprod-project/management-zone/CFT-SSCS-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftevidencemanagementperf has dep on nonprod-project/management-zone/CFT-EvidenceManagement-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftevidencemanagementperf has dep on nonprod-project/management-zone/CFT-EvidenceManagement-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftevidencemanagementstg has dep on nonprod-project/management-zone/CFT-EvidenceManagement-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftevidencemanagementstg has dep on nonprod-project/management-zone/CFT-EvidenceManagement-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftcivilmoneyclaimsstg has dep on nonprod-project/management-zone/CFT-CivilMoneyClaims-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftcivilmoneyclaimsstg has dep on nonprod-project/management-zone/CFT-CivilMoneyClaims-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftxuiperf has dep on nonprod-project/management-zone/CFT-XUI-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfeespaymentsstg has dep on nonprod-project/management-zone/CFT-FeesPayments-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfeespaymentsstg has dep on nonprod-project/management-zone/CFT-FeesPayments-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftdivorcestg has dep on nonprod-project/management-zone/CFT-Divorce-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftdivorcestg has dep on nonprod-project/management-zone/CFT-Divorce-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftccdperf has dep on nonprod-project/management-zone/CFT-CCD-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftccdperf has dep on nonprod-project/management-zone/CFT-CCD-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfeespaymentsperf has dep on nonprod-project/management-zone/CFT-FamilyPublicLaw-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfamilypubliclawperf has dep on nonprod-project/management-zone/CFT-FamilyPublicLaw-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfamilypubliclawperf has dep on nonprod-project/management-zone/CFT-FamilyPublicLaw-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfeespaymentsperf has dep on nonprod-project/management-zone/CFT-FamilyPublicLaw-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftimmigrationandasylumperf has dep on nonprod-project/management-zone/CFT-ImmigrationandAsylum-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftimmigrationandasylumperf has dep on nonprod-project/management-zone/CFT-ImmigrationandAsylum-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftxuistg has dep on nonprod-project/management-zone/CFT-XUI-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftxuistg has dep on nonprod-project/management-zone/CFT-XUI-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftldata has dep on nonprod-project/management-zone/CFT-LDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftldata has dep on nonprod-project/management-zone/CFT-LDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftpcqperf has dep on nonprod-project/management-zone/CFT-PCQ-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftpcqperf has dep on nonprod-project/management-zone/CFT-PCQ-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftdivorceperf has dep on nonprod-project/management-zone/CFT-Divorce-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftdivorceperf has dep on nonprod-project/management-zone/CFT-Divorce-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftecmstg has dep on nonprod-project/management-zone/CFT-ECM-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftecmstg has dep on nonprod-project/management-zone/CFT-ECM-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftimmigrationandasylumstg has dep on nonprod-project/management-zone/CFT-ImmigrationandAsylum-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftimmigrationandasylumstg has dep on nonprod-project/management-zone/CFT-ImmigrationandAsylum-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftidamsbox has dep on nonprod-project/management-zone/CFT-IDAM-Sandbox
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftidamsbox has dep on nonprod-project/management-zone/CFT-IDAM-Sandbox
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftidamstg has dep on nonprod-project/management-zone/CFT-IDAM-Sandbox
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftidamstg has dep on nonprod-project/management-zone/CFT-IDAM-Sandbox
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfinancialremedyperf has dep on nonprod-project/management-zone/CFT-FinancialRemedy-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfinancialremedyperf has dep on nonprod-project/management-zone/CFT-FinancialRemedy-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftccdstg has dep on nonprod-project/management-zone/CFT-CCD-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftccdstg has dep on nonprod-project/management-zone/CFT-CCD-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftecmperf has dep on nonprod-project/management-zone/CFT-ECM-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftecmperf has dep on nonprod-project/management-zone/CFT-ECM-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-PCQ-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-FamilyPublicLaw-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-PaloNon-ProdPerfLDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-IDAM-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-ECM-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-ECM-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-CCD-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-XUI-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-PCQ-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-EvidenceManagement-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Divorce-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-BulkScan-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Bulkprint-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Probate-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-FinancialRemedy-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-FamilyPublicLaw-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-CivilMoneyClaims-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-BulkScan-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-ProfessionalReferenceData-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-LegalRepCMCUnspec
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-IDAM-Sandbox
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-FinancialRemedy-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Elasticsearch-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Probate-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-LDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-CCD-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-SSCS-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Forgerock-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Elasticsearch-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-XUI-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-ImmigrationandAsylum-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-ECM-LDATA
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-SSCS-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-ImmigrationandAsylum-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Bulkprint-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-ProfessionalReferenceData-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-AccessManagement-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-AccessManagement-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-EvidenceManagement-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-CivilUnspec-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-FeesPayments-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Divorce-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/DTS-HMI-Dev
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/DTS-CVP-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/SVCOFF
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/Crime-CPNFT
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/Crime
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-FeesPayments-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CrimeCPMDV
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/Crime-IdAM-NFT
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-IDAM-Staging
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/Crime-ROTANFT
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/DTS-CVP-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT
+2021-03-16 11:30:05 DEBUG 		nonprod-project/management-zone/CFT-Perf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftpcqstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfeespaymentsperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftpalononprodldataperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftidamperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftecmperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftecmstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftccdperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfamilypubliclawperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftxuistg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftpcqperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftevidencemanagementstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftevidencemanagementstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftdivorcestg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftbulkscanperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkprintstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftxuistg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftprobateperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftidamperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfinancialremedystg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfamilypubliclawstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftcivilmoneyclaimsstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftbulkscanstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftprofessionalreferencedataestg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftlegalrepcmcunspec
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftidamstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfinancialremedyperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftelasticsearchperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkscanstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftprobateperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftprobatestg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftlegalrepcmcunspec
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftldata
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftccdstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftsscsperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftidamstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftforgerockstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfamilypubliclawstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftelasticsearchstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftxuiperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftprofessionalreferencedataestg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftimmigrationandasylumstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfinancialremedyperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftelasticsearchstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftecmldata
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftbulkprintstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftsscsstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftimmigrationandasylumperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkprintperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftsscsstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftpcqstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftecmperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftdivorcestg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftccdstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftprofessionalreferencedataeperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftpalononprodldataperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftldata
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftforgerockstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfamilypubliclawperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftecmldata
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftcivilmoneyclaimsstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftaccessmanagementstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftaccessmanagementperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftprobatestg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfinancialremedystg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftevidencemanagementperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftcivilunspecstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftaccessmanagementperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftprofessionalreferencedataeperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftimmigrationandasylumstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftidamsbox
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftidamsbox
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfeespaymentsstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftevidencemanagementperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftdivorceperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftdivorceperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkscanperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftsscsperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftimmigrationandasylumperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftecmstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftcivilunspecstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftbulkprintperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftccdperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftfeespaymentsstg
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftpcqperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainout-cftfeespaymentsperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftelasticsearchperf
+2021-03-16 11:30:05 DEBUG 		nonprod-project/calculated-metrics-service/SSLDomainin-cftaccessmanagementstg
+2021-03-16 11:30:05 DEBUG Sorting projects...
+2021-03-16 11:30:05 INFO  Executing projects in this order: 
+2021-03-16 11:30:05 INFO  	1: nonprod-project (143 configs)
+2021-03-16 11:30:05 INFO  Processing environment test1...
+2021-03-16 11:30:05 WARN  You used an old token format. Please consider switching to the new 1.205+ token format.
+2021-03-16 11:30:05 WARN  More information: https://www.dynatrace.com/support/help/dynatrace-api/basics/dynatrace-api-authentication/#-dynatrace-version-1205--token-format
+2021-03-16 11:30:05 INFO  	Processing project nonprod-project...
+2021-03-16 11:30:05 DEBUG 		Deploying configs in this order: 
+2021-03-16 11:30:05 DEBUG 			1: nonprod-project/management-zone/CFT-PCQ-Staging.json
+2021-03-16 11:30:05 DEBUG 			2: nonprod-project/management-zone/CFT-FamilyPublicLaw-Perf.json
+2021-03-16 11:30:05 DEBUG 			3: nonprod-project/management-zone/CFT-PaloNon-ProdPerfLDATA.json
+2021-03-16 11:30:05 DEBUG 			4: nonprod-project/management-zone/CFT-IDAM-Perf.json
+2021-03-16 11:30:05 DEBUG 			5: nonprod-project/management-zone/CFT-ECM-Perf.json
+2021-03-16 11:30:05 DEBUG 			6: nonprod-project/management-zone/CFT-ECM-Staging.json
+2021-03-16 11:30:05 DEBUG 			7: nonprod-project/management-zone/CFT-CCD-Perf.json
+2021-03-16 11:30:05 DEBUG 			8: nonprod-project/management-zone/CFT-XUI-Staging.json
+2021-03-16 11:30:05 DEBUG 			9: nonprod-project/management-zone/CFT-PCQ-Perf.json
+2021-03-16 11:30:05 DEBUG 			10: nonprod-project/management-zone/CFT-EvidenceManagement-Staging.json
+2021-03-16 11:30:05 DEBUG 			11: nonprod-project/management-zone/CFT-Divorce-Staging.json
+2021-03-16 11:30:05 DEBUG 			12: nonprod-project/management-zone/CFT-BulkScan-Perf.json
+2021-03-16 11:30:05 DEBUG 			13: nonprod-project/management-zone/CFT-Bulkprint-Staging.json
+2021-03-16 11:30:05 DEBUG 			14: nonprod-project/management-zone/CFT-Probate-Perf.json
+2021-03-16 11:30:05 DEBUG 			15: nonprod-project/management-zone/CFT-FinancialRemedy-Staging.json
+2021-03-16 11:30:05 DEBUG 			16: nonprod-project/management-zone/CFT-FamilyPublicLaw-Staging.json
+2021-03-16 11:30:05 DEBUG 			17: nonprod-project/management-zone/CFT-CivilMoneyClaims-Staging.json
+2021-03-16 11:30:05 DEBUG 			18: nonprod-project/management-zone/CFT-BulkScan-Staging.json
+2021-03-16 11:30:05 DEBUG 			19: nonprod-project/management-zone/CFT-ProfessionalReferenceData-Staging.json
+2021-03-16 11:30:05 DEBUG 			20: nonprod-project/management-zone/CFT-LegalRepCMCUnspec.json
+2021-03-16 11:30:05 DEBUG 			21: nonprod-project/management-zone/CFT-IDAM-Sandbox.json
+2021-03-16 11:30:05 DEBUG 			22: nonprod-project/management-zone/CFT-FinancialRemedy-Perf.json
+2021-03-16 11:30:05 DEBUG 			23: nonprod-project/management-zone/CFT-Elasticsearch-Perf.json
+2021-03-16 11:30:05 DEBUG 			24: nonprod-project/management-zone/CFT-Probate-Staging.json
+2021-03-16 11:30:05 DEBUG 			25: nonprod-project/management-zone/CFT-LDATA.json
+2021-03-16 11:30:05 DEBUG 			26: nonprod-project/management-zone/CFT-CCD-Staging.json
+2021-03-16 11:30:05 DEBUG 			27: nonprod-project/management-zone/CFT-SSCS-Perf.json
+2021-03-16 11:30:05 DEBUG 			28: nonprod-project/management-zone/CFT-Forgerock-Staging.json
+2021-03-16 11:30:05 DEBUG 			29: nonprod-project/management-zone/CFT-Elasticsearch-Staging.json
+2021-03-16 11:30:05 DEBUG 			30: nonprod-project/management-zone/CFT-XUI-Perf.json
+2021-03-16 11:30:05 DEBUG 			31: nonprod-project/management-zone/CFT-ImmigrationandAsylum-Staging.json
+2021-03-16 11:30:05 DEBUG 			32: nonprod-project/management-zone/CFT-ECM-LDATA.json
+2021-03-16 11:30:05 DEBUG 			33: nonprod-project/management-zone/CFT-SSCS-Staging.json
+2021-03-16 11:30:05 DEBUG 			34: nonprod-project/management-zone/CFT-ImmigrationandAsylum-Perf.json
+2021-03-16 11:30:05 DEBUG 			35: nonprod-project/management-zone/CFT-Bulkprint-Perf.json
+2021-03-16 11:30:05 DEBUG 			36: nonprod-project/management-zone/CFT-ProfessionalReferenceData-Perf.json
+2021-03-16 11:30:05 DEBUG 			37: nonprod-project/management-zone/CFT-AccessManagement-Staging.json
+2021-03-16 11:30:05 DEBUG 			38: nonprod-project/management-zone/CFT-AccessManagement-Perf.json
+2021-03-16 11:30:05 DEBUG 			39: nonprod-project/management-zone/CFT-EvidenceManagement-Perf.json
+2021-03-16 11:30:05 DEBUG 			40: nonprod-project/management-zone/CFT-CivilUnspec-Staging.json
+2021-03-16 11:30:05 DEBUG 			41: nonprod-project/management-zone/CFT-FeesPayments-Staging.json
+2021-03-16 11:30:05 DEBUG 			42: nonprod-project/management-zone/CFT-Divorce-Perf.json
+2021-03-16 11:30:05 DEBUG 			43: nonprod-project/management-zone/DTS-HMI-Dev.json
+2021-03-16 11:30:05 DEBUG 			44: nonprod-project/management-zone/DTS-CVP-Staging.json
+2021-03-16 11:30:05 DEBUG 			45: nonprod-project/management-zone/SVCOFF.json
+2021-03-16 11:30:05 DEBUG 			46: nonprod-project/management-zone/Crime-CPNFT.json
+2021-03-16 11:30:05 DEBUG 			47: nonprod-project/management-zone/Crime.json
+2021-03-16 11:30:05 DEBUG 			48: nonprod-project/management-zone/CFT-Staging.json
+2021-03-16 11:30:05 DEBUG 			49: nonprod-project/management-zone/CFT-FeesPayments-Perf.json
+2021-03-16 11:30:05 DEBUG 			50: nonprod-project/management-zone/CrimeCPMDV.json
+2021-03-16 11:30:05 DEBUG 			51: nonprod-project/management-zone/Crime-IdAM-NFT.json
+2021-03-16 11:30:05 DEBUG 			52: nonprod-project/management-zone/CFT-IDAM-Staging.json
+2021-03-16 11:30:05 DEBUG 			53: nonprod-project/management-zone/Crime-ROTANFT.json
+2021-03-16 11:30:05 DEBUG 			54: nonprod-project/management-zone/DTS-CVP-Perf.json
+2021-03-16 11:30:05 DEBUG 			55: nonprod-project/management-zone/CFT.json
+2021-03-16 11:30:05 DEBUG 			56: nonprod-project/management-zone/CFT-Perf.json
+2021-03-16 11:30:05 DEBUG 			57: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			58: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			59: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			60: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			61: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			62: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			63: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			64: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			65: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			66: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			67: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			68: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			69: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			70: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			71: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			72: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			73: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			74: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			75: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			76: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			77: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			78: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			79: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			80: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			81: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			82: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			83: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			84: nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkscanstg.json
+2021-03-16 11:30:05 DEBUG 			85: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			86: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			87: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			88: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			89: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			90: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			91: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			92: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			93: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			94: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			95: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			96: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			97: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			98: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			99: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			100: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			101: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			102: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			103: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			104: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			105: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			106: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			107: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			108: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			109: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			110: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			111: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			112: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			113: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			114: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			115: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			116: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			117: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			118: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			119: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			120: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			121: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			122: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			123: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			124: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			125: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			126: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			127: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			128: nonprod-project/calculated-metrics-service/SSLDomainout-cftfeespaymentsstg.json
+2021-03-16 11:30:05 DEBUG 			129: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			130: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			131: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			132: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			133: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			134: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			135: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			136: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			137: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			138: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			139: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			140: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			141: nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:05 DEBUG 			142: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 			143: nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:05 DEBUG 		Applying config `CFT - PCQ - Staging` using nonprod-project/management-zone/CFT-PCQ-Staging.json
+2021-03-16 11:30:05 DEBUG 			Updated existing object for CFT - PCQ - Staging (1261768647518612206)
+2021-03-16 11:30:05 DEBUG 		Applying config `CFT - Family Public Law - Perf` using nonprod-project/management-zone/CFT-FamilyPublicLaw-Perf.json
+2021-03-16 11:30:05 DEBUG 			Updated existing object for CFT - Family Public Law - Perf (-3325376598181916251)
+2021-03-16 11:30:05 DEBUG 		Applying config `CFT - Palo Non-Prod (Perf & LDATA)` using nonprod-project/management-zone/CFT-PaloNon-ProdPerfLDATA.json
+2021-03-16 11:30:05 DEBUG 			Updated existing object for CFT - Palo Non-Prod (Perf & LDATA) (6194252696025770639)
+2021-03-16 11:30:05 DEBUG 		Applying config `CFT - IDAM - Perf` using nonprod-project/management-zone/CFT-IDAM-Perf.json
+2021-03-16 11:30:05 DEBUG 			Updated existing object for CFT - IDAM - Perf (-3398663330763206037)
+2021-03-16 11:30:05 DEBUG 		Applying config `CFT - ECM - Perf` using nonprod-project/management-zone/CFT-ECM-Perf.json
+2021-03-16 11:30:06 DEBUG 			Updated existing object for CFT - ECM - Perf (1662846183996366508)
+2021-03-16 11:30:06 DEBUG 		Applying config `CFT - ECM - Staging` using nonprod-project/management-zone/CFT-ECM-Staging.json
+2021-03-16 11:30:06 DEBUG 			Updated existing object for CFT - ECM - Staging (6896837681189101869)
+2021-03-16 11:30:06 DEBUG 		Applying config `CFT - CCD - Perf` using nonprod-project/management-zone/CFT-CCD-Perf.json
+2021-03-16 11:30:06 DEBUG 			Updated existing object for CFT - CCD - Perf (4041956407067927303)
+2021-03-16 11:30:06 DEBUG 		Applying config `CFT - XUI - Staging` using nonprod-project/management-zone/CFT-XUI-Staging.json
+2021-03-16 11:30:06 DEBUG 			Updated existing object for CFT - XUI - Staging (8128977994886194449)
+2021-03-16 11:30:06 DEBUG 		Applying config `CFT - PCQ - Perf` using nonprod-project/management-zone/CFT-PCQ-Perf.json
+2021-03-16 11:30:06 DEBUG 			Updated existing object for CFT - PCQ - Perf (-3076451687663230434)
+2021-03-16 11:30:06 DEBUG 		Applying config `CFT - Evidence Management - Staging` using nonprod-project/management-zone/CFT-EvidenceManagement-Staging.json
+2021-03-16 11:30:06 DEBUG 			Updated existing object for CFT - Evidence Management - Staging (-4133923648061856681)
+2021-03-16 11:30:06 DEBUG 		Applying config `CFT - Divorce - Staging` using nonprod-project/management-zone/CFT-Divorce-Staging.json
+2021-03-16 11:30:06 DEBUG 			Updated existing object for CFT - Divorce - Staging (3696175387741850982)
+2021-03-16 11:30:06 DEBUG 		Applying config `CFT - Bulk Scan - Perf` using nonprod-project/management-zone/CFT-BulkScan-Perf.json
+2021-03-16 11:30:06 DEBUG 			Updated existing object for CFT - Bulk Scan - Perf (1803134933788046962)
+2021-03-16 11:30:06 DEBUG 		Applying config `CFT - Bulkprint - Staging` using nonprod-project/management-zone/CFT-Bulkprint-Staging.json
+2021-03-16 11:30:06 DEBUG 			Updated existing object for CFT - Bulkprint - Staging (5218331687741082108)
+2021-03-16 11:30:06 DEBUG 		Applying config `CFT - Probate - Perf` using nonprod-project/management-zone/CFT-Probate-Perf.json
+2021-03-16 11:30:06 DEBUG 			Updated existing object for CFT - Probate - Perf (-6278623680568682789)
+2021-03-16 11:30:06 DEBUG 		Applying config `CFT - Financial Remedy - Staging` using nonprod-project/management-zone/CFT-FinancialRemedy-Staging.json
+2021-03-16 11:30:06 DEBUG 			Updated existing object for CFT - Financial Remedy - Staging (8963009351614017628)
+2021-03-16 11:30:06 DEBUG 		Applying config `CFT - Family Public Law - Staging` using nonprod-project/management-zone/CFT-FamilyPublicLaw-Staging.json
+2021-03-16 11:30:06 DEBUG 			Updated existing object for CFT - Family Public Law - Staging (2542811509946751560)
+2021-03-16 11:30:06 DEBUG 		Applying config `CFT - Civil Money Claims - Staging` using nonprod-project/management-zone/CFT-CivilMoneyClaims-Staging.json
+2021-03-16 11:30:07 DEBUG 			Updated existing object for CFT - Civil Money Claims - Staging (-3885368807402224751)
+2021-03-16 11:30:07 DEBUG 		Applying config `CFT - Bulk Scan - Staging` using nonprod-project/management-zone/CFT-BulkScan-Staging.json
+2021-03-16 11:30:07 DEBUG 			Updated existing object for CFT - Bulk Scan - Staging (-828141463272594796)
+2021-03-16 11:30:07 DEBUG 		Applying config `CFT - Professional Reference Data - Staging` using nonprod-project/management-zone/CFT-ProfessionalReferenceData-Staging.json
+2021-03-16 11:30:07 DEBUG 			Updated existing object for CFT - Professional Reference Data - Staging (-580548627215604779)
+2021-03-16 11:30:07 DEBUG 		Applying config `CFT - Legal Rep (CMC Unspec)` using nonprod-project/management-zone/CFT-LegalRepCMCUnspec.json
+2021-03-16 11:30:07 DEBUG 			Updated existing object for CFT - Legal Rep (CMC Unspec) (7851556572616862299)
+2021-03-16 11:30:07 DEBUG 		Applying config `CFT - IDAM - Sandbox` using nonprod-project/management-zone/CFT-IDAM-Sandbox.json
+2021-03-16 11:30:07 DEBUG 			Updated existing object for CFT - IDAM - Sandbox (-4536162996148223635)
+2021-03-16 11:30:07 DEBUG 		Applying config `CFT - Financial Remedy - Perf` using nonprod-project/management-zone/CFT-FinancialRemedy-Perf.json
+2021-03-16 11:30:07 DEBUG 			Updated existing object for CFT - Financial Remedy - Perf (-6972942449619918532)
+2021-03-16 11:30:07 DEBUG 		Applying config `CFT - Elasticsearch - Perf` using nonprod-project/management-zone/CFT-Elasticsearch-Perf.json
+2021-03-16 11:30:07 DEBUG 			Updated existing object for CFT - Elasticsearch - Perf (20174636658135932)
+2021-03-16 11:30:07 DEBUG 		Applying config `CFT - Probate - Staging` using nonprod-project/management-zone/CFT-Probate-Staging.json
+2021-03-16 11:30:07 DEBUG 			Updated existing object for CFT - Probate - Staging (895834376363200840)
+2021-03-16 11:30:07 DEBUG 		Applying config `CFT - LDATA` using nonprod-project/management-zone/CFT-LDATA.json
+2021-03-16 11:30:07 DEBUG 			Updated existing object for CFT - LDATA (-2092106295512620215)
+2021-03-16 11:30:07 DEBUG 		Applying config `CFT - CCD - Staging` using nonprod-project/management-zone/CFT-CCD-Staging.json
+2021-03-16 11:30:07 DEBUG 			Updated existing object for CFT - CCD - Staging (1694465904051172840)
+2021-03-16 11:30:07 DEBUG 		Applying config `CFT - SSCS - Perf` using nonprod-project/management-zone/CFT-SSCS-Perf.json
+2021-03-16 11:30:07 DEBUG 			Updated existing object for CFT - SSCS - Perf (2760142458693915920)
+2021-03-16 11:30:07 DEBUG 		Applying config `CFT - Forgerock - Staging` using nonprod-project/management-zone/CFT-Forgerock-Staging.json
+2021-03-16 11:30:07 DEBUG 			Updated existing object for CFT - Forgerock - Staging (5160175703577640998)
+2021-03-16 11:30:07 DEBUG 		Applying config `CFT - Elasticsearch - Staging` using nonprod-project/management-zone/CFT-Elasticsearch-Staging.json
+2021-03-16 11:30:08 DEBUG 			Updated existing object for CFT - Elasticsearch - Staging (1680988183724851448)
+2021-03-16 11:30:08 DEBUG 		Applying config `CFT - XUI - Perf` using nonprod-project/management-zone/CFT-XUI-Perf.json
+2021-03-16 11:30:08 DEBUG 			Updated existing object for CFT - XUI - Perf (-9162833360263446736)
+2021-03-16 11:30:08 DEBUG 		Applying config `CFT - Immigration and Asylum - Staging` using nonprod-project/management-zone/CFT-ImmigrationandAsylum-Staging.json
+2021-03-16 11:30:08 DEBUG 			Updated existing object for CFT - Immigration and Asylum - Staging (-4089889617762575223)
+2021-03-16 11:30:08 DEBUG 		Applying config `CFT - ECM - LDATA` using nonprod-project/management-zone/CFT-ECM-LDATA.json
+2021-03-16 11:30:08 DEBUG 			Updated existing object for CFT - ECM - LDATA (-4584495383903544465)
+2021-03-16 11:30:08 DEBUG 		Applying config `CFT - SSCS - Staging` using nonprod-project/management-zone/CFT-SSCS-Staging.json
+2021-03-16 11:30:08 DEBUG 			Updated existing object for CFT - SSCS - Staging (2973408810216277986)
+2021-03-16 11:30:08 DEBUG 		Applying config `CFT - Immigration and Asylum - Perf` using nonprod-project/management-zone/CFT-ImmigrationandAsylum-Perf.json
+2021-03-16 11:30:08 DEBUG 			Updated existing object for CFT - Immigration and Asylum - Perf (-3585466114621799834)
+2021-03-16 11:30:08 DEBUG 		Applying config `CFT - Bulkprint - Perf` using nonprod-project/management-zone/CFT-Bulkprint-Perf.json
+2021-03-16 11:30:08 DEBUG 			Updated existing object for CFT - Bulkprint - Perf (4295032514107427917)
+2021-03-16 11:30:08 DEBUG 		Applying config `CFT - Professional Reference Data - Perf` using nonprod-project/management-zone/CFT-ProfessionalReferenceData-Perf.json
+2021-03-16 11:30:08 DEBUG 			Updated existing object for CFT - Professional Reference Data - Perf (6671836036581898423)
+2021-03-16 11:30:08 DEBUG 		Applying config `CFT - Access Management - Staging` using nonprod-project/management-zone/CFT-AccessManagement-Staging.json
+2021-03-16 11:30:08 DEBUG 			Updated existing object for CFT - Access Management - Staging (-7077367472975635727)
+2021-03-16 11:30:08 DEBUG 		Applying config `CFT - Access Management - Perf` using nonprod-project/management-zone/CFT-AccessManagement-Perf.json
+2021-03-16 11:30:08 DEBUG 			Updated existing object for CFT - Access Management - Perf (2325303417150435443)
+2021-03-16 11:30:08 DEBUG 		Applying config `CFT - Evidence Management - Perf` using nonprod-project/management-zone/CFT-EvidenceManagement-Perf.json
+2021-03-16 11:30:08 DEBUG 			Updated existing object for CFT - Evidence Management - Perf (-4440591645479500582)
+2021-03-16 11:30:08 DEBUG 		Applying config `CFT - Civil Unspec - Staging` using nonprod-project/management-zone/CFT-CivilUnspec-Staging.json
+2021-03-16 11:30:08 DEBUG 			Updated existing object for CFT - Civil Unspec - Staging (-269723276415738579)
+2021-03-16 11:30:08 DEBUG 		Applying config `CFT - Fees & Payments - Staging` using nonprod-project/management-zone/CFT-FeesPayments-Staging.json
+2021-03-16 11:30:08 DEBUG 			Updated existing object for CFT - Fees & Payments - Staging (2235935701736004927)
+2021-03-16 11:30:08 DEBUG 		Applying config `CFT - Divorce - Perf` using nonprod-project/management-zone/CFT-Divorce-Perf.json
+2021-03-16 11:30:09 DEBUG 			Updated existing object for CFT - Divorce - Perf (-7146088579887695217)
+2021-03-16 11:30:09 DEBUG 		Applying config `DTS - HMI - Dev` using nonprod-project/management-zone/DTS-HMI-Dev.json
+2021-03-16 11:30:09 DEBUG 			Updated existing object for DTS - HMI - Dev (7259039908900233531)
+2021-03-16 11:30:09 DEBUG 		Applying config `DTS - CVP - Staging` using nonprod-project/management-zone/DTS-CVP-Staging.json
+2021-03-16 11:30:09 DEBUG 			Updated existing object for DTS - CVP - Staging (3878765472598882810)
+2021-03-16 11:30:09 DEBUG 		Applying config `SVCOFF` using nonprod-project/management-zone/SVCOFF.json
+2021-03-16 11:30:09 ERROR 			Failed Failed to upsert DT object SVCOFF (HTTP 400)!
+    Response was: {"error":{"code":400,"message":"Constraints violated.","constraintViolations":[{"path":"rules[5].conditions[0].comparisonInfo.operator","message":"may not be null","parameterLocation":"PAYLOAD_BODY","location":null}]}}, responsible config: nonprod-project/management-zone/SVCOFF.json
+2021-03-16 11:30:09 DEBUG 		Applying config `Crime - CP (NFT)` using nonprod-project/management-zone/Crime-CPNFT.json
+2021-03-16 11:30:09 DEBUG 			Updated existing object for Crime - CP (NFT) (4644749235633502145)
+2021-03-16 11:30:09 DEBUG 		Applying config `Crime` using nonprod-project/management-zone/Crime.json
+2021-03-16 11:30:09 DEBUG 			Updated existing object for Crime (5869021333397818037)
+2021-03-16 11:30:09 DEBUG 		Applying config `CFT - Staging` using nonprod-project/management-zone/CFT-Staging.json
+2021-03-16 11:30:09 DEBUG 			Updated existing object for CFT - Staging (-8327866327606010766)
+2021-03-16 11:30:09 DEBUG 		Applying config `CFT - Fees & Payments - Perf` using nonprod-project/management-zone/CFT-FeesPayments-Perf.json
+2021-03-16 11:30:09 DEBUG 			Updated existing object for CFT - Fees & Payments - Perf (-4976681621752891525)
+2021-03-16 11:30:09 DEBUG 		Applying config `Crime CP (MDV)` using nonprod-project/management-zone/CrimeCPMDV.json
+2021-03-16 11:30:09 DEBUG 			Updated existing object for Crime CP (MDV) (-6108022805863809743)
+2021-03-16 11:30:09 DEBUG 		Applying config `Crime - IdAM - NFT` using nonprod-project/management-zone/Crime-IdAM-NFT.json
+2021-03-16 11:30:09 DEBUG 			Updated existing object for Crime - IdAM - NFT (-6152899060348952233)
+2021-03-16 11:30:09 DEBUG 		Applying config `CFT - IDAM - Staging` using nonprod-project/management-zone/CFT-IDAM-Staging.json
+2021-03-16 11:30:09 DEBUG 			Updated existing object for CFT - IDAM - Staging (191996962558527295)
+2021-03-16 11:30:09 DEBUG 		Applying config `Crime - ROTA (NFT)` using nonprod-project/management-zone/Crime-ROTANFT.json
+2021-03-16 11:30:09 DEBUG 			Updated existing object for Crime - ROTA (NFT) (-9151101100001278674)
+2021-03-16 11:30:09 DEBUG 		Applying config `DTS - CVP - Perf` using nonprod-project/management-zone/DTS-CVP-Perf.json
+2021-03-16 11:30:10 DEBUG 			Updated existing object for DTS - CVP - Perf (-3709244021897047762)
+2021-03-16 11:30:10 DEBUG 		Applying config `CFT` using nonprod-project/management-zone/CFT.json
+2021-03-16 11:30:10 DEBUG 			Updated existing object for CFT (-1016681994524158509)
+2021-03-16 11:30:10 DEBUG 		Applying config `CFT - Perf` using nonprod-project/management-zone/CFT-Perf.json
+2021-03-16 11:30:10 DEBUG 			Updated existing object for CFT - Perf (2544831856608055602)
+2021-03-16 11:30:10 DEBUG 		Applying config `SSL Domain out - cft pcq (stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:10 DEBUG 			Updated existing object for SSL Domain out - cft pcq (stg) (calc:service.ssldomainout_cftpcq_stg)
+2021-03-16 11:30:10 DEBUG 		Applying config `SSL Domain in - cft fees payments(perf)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:10 DEBUG 			Updated existing object for SSL Domain in - cft fees payments(perf) (calc:service.ssldomainin_cftfeespayments_perf)
+2021-03-16 11:30:10 DEBUG 		Applying config `SSL Domain out - cft palo nonprod ldata (perf)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:10 DEBUG 			Updated existing object for SSL Domain out - cft palo nonprod ldata (perf) (calc:service.ssldomainout_cftpalononprodldata_perf)
+2021-03-16 11:30:10 DEBUG 		Applying config `SSL Domain in - cft idam(perf)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:10 DEBUG 			Updated existing object for SSL Domain in - cft idam(perf) (calc:service.ssldomainin_cftidam_perf)
+2021-03-16 11:30:10 DEBUG 		Applying config `SSL Domain in - cft ecm (perf)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:11 DEBUG 			Updated existing object for SSL Domain in - cft ecm (perf) (calc:service.ssldomainin_cftecm_perf)
+2021-03-16 11:30:11 DEBUG 		Applying config `SSL Domain out - cft ecm (stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:11 DEBUG 			Updated existing object for SSL Domain out - cft ecm (stg) (calc:service.ssldomainout_ccftecm_stg)
+2021-03-16 11:30:11 DEBUG 		Applying config `SSL Domain in - cft ccd (perf)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:11 DEBUG 			Updated existing object for SSL Domain in - cft ccd (perf) (calc:service.ssldomainin_cftccd_perf)
+2021-03-16 11:30:11 DEBUG 		Applying config `SSL Domain in - cft family public law(perf)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:11 DEBUG 			Updated existing object for SSL Domain in - cft family public law(perf) (calc:service.ssldomainin_cftfamilypubliclaw_perf)
+2021-03-16 11:30:11 DEBUG 		Applying config `SSL Domain out - cft xui (stg )` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:11 DEBUG 			Updated existing object for SSL Domain out - cft xui (stg ) (calc:service.ssldomainout_cftxui_stg)
+2021-03-16 11:30:11 DEBUG 		Applying config `SSL Domain out - cft pcq (perf)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:12 DEBUG 			Updated existing object for SSL Domain out - cft pcq (perf) (calc:service.ssldomainout_cftpcq_perf)
+2021-03-16 11:30:12 DEBUG 		Applying config `SSL Domain out - cft evidencemanagement (stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:12 DEBUG 			Updated existing object for SSL Domain out - cft evidencemanagement (stg) (calc:service.ssldomainout_cftevidencemanagement_stg)
+2021-03-16 11:30:12 DEBUG 		Applying config `SSL Domain in - cft evidencemanagement (stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:12 DEBUG 			Updated existing object for SSL Domain in - cft evidencemanagement (stg) (calc:service.ssldomainin_cftevidencemanagement_stg)
+2021-03-16 11:30:12 DEBUG 		Applying config `SSL Domain in - cft divorce (stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:12 DEBUG 			Updated existing object for SSL Domain in - cft divorce (stg) (calc:service.ssldomainin_cftdivorce_stg)
+2021-03-16 11:30:12 DEBUG 		Applying config `SSL Domain out - cft bulk scan (perf)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:12 DEBUG 			Updated existing object for SSL Domain out - cft bulk scan (perf) (calc:service.ssldomainout_cftbulkscan_perf)
+2021-03-16 11:30:12 DEBUG 		Applying config `SSL Domain in - cft bulk print (stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:13 DEBUG 			Updated existing object for SSL Domain in - cft bulk print (stg) (calc:service.ssldomainin_cftbulkprint_stg)
+2021-03-16 11:30:13 DEBUG 		Applying config `SSL Domain in - cft xui (stg )` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:13 DEBUG 			Updated existing object for SSL Domain in - cft xui (stg ) (calc:service.ssldomainin_cftxui_stg)
+2021-03-16 11:30:13 DEBUG 		Applying config `SSL Domain in - cft probate (perf)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:13 DEBUG 			Updated existing object for SSL Domain in - cft probate (perf) (calc:service.ssldomainin_cftprobate_perf)
+2021-03-16 11:30:13 DEBUG 		Applying config `SSL Domain out - cft idam(perf)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:13 DEBUG 			Updated existing object for SSL Domain out - cft idam(perf) (calc:service.ssldomainout_cftidam_perf)
+2021-03-16 11:30:13 DEBUG 		Applying config `SSL Domain in - cft financial remedy(stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:13 DEBUG 			Updated existing object for SSL Domain in - cft financial remedy(stg) (calc:service.ssldomainin_cftfinancialremedy_stg)
+2021-03-16 11:30:13 DEBUG 		Applying config `SSL Domain out - cft family public law(stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:13 DEBUG 			Updated existing object for SSL Domain out - cft family public law(stg) (calc:service.ssldomainout_cftfamilypubliclaw_stg)
+2021-03-16 11:30:13 DEBUG 		Applying config `SSL Domain out - cft civil money claims (stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:14 DEBUG 			Updated existing object for SSL Domain out - cft civil money claims (stg) (calc:service.ssldomainout_cftcivilmoneyclaims_stg)
+2021-03-16 11:30:14 DEBUG 		Applying config `SSL Domain out - cft bulk scan (stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:14 DEBUG 			Updated existing object for SSL Domain out - cft bulk scan (stg) (calc:service.ssldomainout_cftbulkscan_stg)
+2021-03-16 11:30:14 DEBUG 		Applying config `SSL Domain out - cft professional reference data (stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:14 DEBUG 			Updated existing object for SSL Domain out - cft professional reference data (stg) (calc:service.ssldomainout_cftprofessionalreferencedatae_stg)
+2021-03-16 11:30:14 DEBUG 		Applying config `SSL Domain in - cft legalrep cmc unspec` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:14 DEBUG 			Updated existing object for SSL Domain in - cft legalrep cmc unspec (calc:service.ssldomainin_cftlegalrepcmcunspec)
+2021-03-16 11:30:14 DEBUG 		Applying config `SSL Domain in - cft idam(stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:14 DEBUG 			Updated existing object for SSL Domain in - cft idam(stg) (calc:service.ssldomainin_cftidam_stg)
+2021-03-16 11:30:14 DEBUG 		Applying config `SSL Domain in - cft financial remedy(perf)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:14 DEBUG 			Updated existing object for SSL Domain in - cft financial remedy(perf) (calc:service.ssldomainin_cftfinancialremedy_perf)
+2021-03-16 11:30:14 DEBUG 		Applying config `SSL Domain out - cft elasticsearch (perf)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:15 DEBUG 			Updated existing object for SSL Domain out - cft elasticsearch (perf) (calc:service.ssldomainout_cftelasticsearch_perf)
+2021-03-16 11:30:15 DEBUG 		Applying config `SSL Domain in - cft bulk scan  (stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkscanstg.json
+2021-03-16 11:30:15 ERROR 			Failed Failed to upsert DT object SSL Domain in - cft bulk scan  (stg) (HTTP 400)!
+    Response was: {"error":{"code":400,"message":"Constraints violated.","constraintViolations":[{"path":"tsmMetricKey","message":"Tsm metric key must not begin or end with special character.","parameterLocation":"PAYLOAD_BODY","location":null}]}}, responsible config: nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkscanstg.json
+2021-03-16 11:30:15 DEBUG 		Applying config `SSL Domain out - cft probate (perf)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:15 DEBUG 			Updated existing object for SSL Domain out - cft probate (perf) (calc:service.ssldomainout_cftprobate_perf)
+2021-03-16 11:30:15 DEBUG 		Applying config `SSL Domain in - cft probate (stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:15 DEBUG 			Updated existing object for SSL Domain in - cft probate (stg) (calc:service.ssldomainin_cftprobate_stg)
+2021-03-16 11:30:15 DEBUG 		Applying config `SSL Domain out - cft legalrep cmc unspec` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:15 DEBUG 			Updated existing object for SSL Domain out - cft legalrep cmc unspec (calc:service.ssldomainout_cftlegalrepcmcunspec)
+2021-03-16 11:30:15 DEBUG 		Applying config `SSL Domain in - cft ldata` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:16 DEBUG 			Updated existing object for SSL Domain in - cft ldata (calc:service.ssldomainin_cftldata)
+2021-03-16 11:30:16 DEBUG 		Applying config `SSL Domain out - cft ccd (stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:16 DEBUG 			Updated existing object for SSL Domain out - cft ccd (stg) (calc:service.ssldomainout_cftccd_stg)
+2021-03-16 11:30:16 DEBUG 		Applying config `SSL Domain out - cft sscs (perf )` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:16 DEBUG 			Updated existing object for SSL Domain out - cft sscs (perf ) (calc:service.ssldomainout_cftsscs_perf)
+2021-03-16 11:30:16 DEBUG 		Applying config `SSL Domain out - cft idam(stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:16 DEBUG 			Updated existing object for SSL Domain out - cft idam(stg) (calc:service.ssldomainout_cftidam_stg)
+2021-03-16 11:30:16 DEBUG 		Applying config `SSL Domain in - cft forge rock(stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:16 DEBUG 			Updated existing object for SSL Domain in - cft forge rock(stg) (calc:service.ssldomainin_cftforgerock_stg)
+2021-03-16 11:30:16 DEBUG 		Applying config `SSL Domain in - cft family public law(stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:16 DEBUG 			Updated existing object for SSL Domain in - cft family public law(stg) (calc:service.ssldomainin_cftfamilypubliclaw_stg)
+2021-03-16 11:30:16 DEBUG 		Applying config `SSL Domain out - cft elasticsearch (stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:17 DEBUG 			Updated existing object for SSL Domain out - cft elasticsearch (stg) (calc:service.ssldomainout_cftelasticsearch_stg)
+2021-03-16 11:30:17 DEBUG 		Applying config `SSL Domain in - cft xui (perf )` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:17 DEBUG 			Updated existing object for SSL Domain in - cft xui (perf ) (calc:service.ssldomainin_cftxui_perf)
+2021-03-16 11:30:17 DEBUG 		Applying config `SSL Domain in - cft professional reference data (stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:17 DEBUG 			Updated existing object for SSL Domain in - cft professional reference data (stg) (calc:service.ssldomainin_cftprofessionalreferencedatae_stg)
+2021-03-16 11:30:17 DEBUG 		Applying config `SSL Domain in - cft immigration and asylum(stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:17 DEBUG 			Updated existing object for SSL Domain in - cft immigration and asylum(stg) (calc:service.ssldomainin_cftimmigrationandasylum_stg)
+2021-03-16 11:30:17 DEBUG 		Applying config `SSL Domain out - cft financial remedy(perf)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:17 DEBUG 			Updated existing object for SSL Domain out - cft financial remedy(perf) (calc:service.ssldomainout_cftfinancialremedy_perf)
+2021-03-16 11:30:17 DEBUG 		Applying config `SSL Domain in - cft elasticsearch (stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:17 DEBUG 			Updated existing object for SSL Domain in - cft elasticsearch (stg) (calc:service.ssldomainin_cftelasticsearch_stg)
+2021-03-16 11:30:17 DEBUG 		Applying config `SSL Domain out - cft ecm ldata` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:17 DEBUG 			Updated existing object for SSL Domain out - cft ecm ldata (calc:service.ssldomainout_cftecmldata)
+2021-03-16 11:30:17 DEBUG 		Applying config `SSL Domain out - cft bulk print (stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:18 DEBUG 			Updated existing object for SSL Domain out - cft bulk print (stg) (calc:service.ssldomainout_cftbulkprint_stg)
+2021-03-16 11:30:18 DEBUG 		Applying config `SSL Domain in - cft sscs (stg )` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:18 DEBUG 			Updated existing object for SSL Domain in - cft sscs (stg ) (calc:service.ssldomainin_cftsscs_stg)
+2021-03-16 11:30:18 DEBUG 		Applying config `SSL Domain out - cft immigration and asylum(perf)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:18 DEBUG 			Updated existing object for SSL Domain out - cft immigration and asylum(perf) (calc:service.ssldomainout_cftimmigrationandasylum_perf)
+2021-03-16 11:30:18 DEBUG 		Applying config `SSL Domain in - cft bulk print (perf)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:18 DEBUG 			Updated existing object for SSL Domain in - cft bulk print (perf) (calc:service.ssldomainin_cftbulkprint_perf)
+2021-03-16 11:30:18 DEBUG 		Applying config `SSL Domain out - cft sscs (stg )` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:18 DEBUG 			Updated existing object for SSL Domain out - cft sscs (stg ) (calc:service.ssldomainout_cftsscs_stg)
+2021-03-16 11:30:18 DEBUG 		Applying config `SSL Domain in - cft pcq (stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:19 DEBUG 			Updated existing object for SSL Domain in - cft pcq (stg) (calc:service.ssldomainin_cftpcq_stg)
+2021-03-16 11:30:19 DEBUG 		Applying config `SSL Domain out - cft ecm (perf)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:19 DEBUG 			Updated existing object for SSL Domain out - cft ecm (perf) (calc:service.ssldomainout_ccftecm_perf)
+2021-03-16 11:30:19 DEBUG 		Applying config `SSL Domain out - cft divorce (stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:19 DEBUG 			Updated existing object for SSL Domain out - cft divorce (stg) (calc:service.ssldomainout_cftdivorce_stg)
+2021-03-16 11:30:19 DEBUG 		Applying config `SSL Domain in - cft ccd (stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:19 DEBUG 			Updated existing object for SSL Domain in - cft ccd (stg) (calc:service.ssldomainin_cftccd_stg)
+2021-03-16 11:30:19 DEBUG 		Applying config `SSL Domain in - cft professional reference data (perf)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:19 DEBUG 			Updated existing object for SSL Domain in - cft professional reference data (perf) (calc:service.ssldomainin_cftprofessionalreferencedatae_perf)
+2021-03-16 11:30:19 DEBUG 		Applying config `SSL Domain in - cft palo nonprod ldata (perf)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:19 DEBUG 			Updated existing object for SSL Domain in - cft palo nonprod ldata (perf) (calc:service.ssldomainin_cftpalononprodldata_perf)
+2021-03-16 11:30:19 DEBUG 		Applying config `SSL Domain out - cft ldata` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:20 DEBUG 			Updated existing object for SSL Domain out - cft ldata (calc:service.ssldomainout_cftldata)
+2021-03-16 11:30:20 DEBUG 		Applying config `SSL Domain out - cft forge rock(stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:20 DEBUG 			Updated existing object for SSL Domain out - cft forge rock(stg) (calc:service.ssldomainout_cftforgerock_stg)
+2021-03-16 11:30:20 DEBUG 		Applying config `SSL Domain out - cft family public law(perf)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:20 DEBUG 			Updated existing object for SSL Domain out - cft family public law(perf) (calc:service.ssldomainout_cftfamilypubliclaw_perf)
+2021-03-16 11:30:20 DEBUG 		Applying config `SSL Domain in - cft ecm ldata` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:20 DEBUG 			Updated existing object for SSL Domain in - cft ecm ldata (calc:service.ssldomainin_cftecmldata)
+2021-03-16 11:30:20 DEBUG 		Applying config `SSL Domain in - cft civil money claims (stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:20 DEBUG 			Updated existing object for SSL Domain in - cft civil money claims (stg) (calc:service.ssldomainin_cftcivilmoneyclaims_stg)
+2021-03-16 11:30:20 DEBUG 		Applying config `SSL Domain out - cft access management (stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:20 DEBUG 			Updated existing object for SSL Domain out - cft access management (stg) (calc:service.ssldomainout_cftaccessmanagement_stg)
+2021-03-16 11:30:20 DEBUG 		Applying config `SSL Domain out - cft access management (perf)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:20 DEBUG 			Updated existing object for SSL Domain out - cft access management (perf) (calc:service.ssldomainout_cftaccessmanagement_perf)
+2021-03-16 11:30:20 DEBUG 		Applying config `SSL Domain out - cft probate (stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:21 DEBUG 			Updated existing object for SSL Domain out - cft probate (stg) (calc:service.ssldomainout_cftprobate_stg)
+2021-03-16 11:30:21 DEBUG 		Applying config `SSL Domain out - cft financial remedy(stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:21 DEBUG 			Updated existing object for SSL Domain out - cft financial remedy(stg) (calc:service.ssldomainout_cftfinancialremedy_stg)
+2021-03-16 11:30:21 DEBUG 		Applying config `SSL Domain out - cft evidencemanagement (perf)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:21 DEBUG 			Updated existing object for SSL Domain out - cft evidencemanagement (perf) (calc:service.ssldomainout_cftevidencemanagement_perf)
+2021-03-16 11:30:21 DEBUG 		Applying config `SSL Domain in - cft civil unspec (stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:21 DEBUG 			Updated existing object for SSL Domain in - cft civil unspec (stg) (calc:service.ssldomainin_cftcivilunspec_stg)
+2021-03-16 11:30:21 DEBUG 		Applying config `SSL Domain in - cft access management (perf)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:21 DEBUG 			Updated existing object for SSL Domain in - cft access management (perf) (calc:service.ssldomainin_cftaccessmanagement_perf)
+2021-03-16 11:30:21 DEBUG 		Applying config `SSL Domain out - cft professional reference data (perf)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:21 DEBUG 			Updated existing object for SSL Domain out - cft professional reference data (perf) (calc:service.ssldomainout_cftprofessionalreferencedatae_perf)
+2021-03-16 11:30:21 DEBUG 		Applying config `SSL Domain out - cft immigration and asylum(stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:22 DEBUG 			Updated existing object for SSL Domain out - cft immigration and asylum(stg) (calc:service.ssldomainout_cftimmigrationandasylum_stg)
+2021-03-16 11:30:22 DEBUG 		Applying config `SSL Domain out - cft idam(sbox)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:22 DEBUG 			Updated existing object for SSL Domain out - cft idam(sbox) (calc:service.ssldomainout_cftidam_sbox)
+2021-03-16 11:30:22 DEBUG 		Applying config `SSL Domain in - cft idam(sbox)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:22 DEBUG 			Updated existing object for SSL Domain in - cft idam(sbox) (calc:service.ssldomainin_cftidam_sbox)
+2021-03-16 11:30:22 DEBUG 		Applying config `SSL Domain out - cft fees & payments (stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-cftfeespaymentsstg.json
+2021-03-16 11:30:22 ERROR 			Failed Failed to upsert DT object SSL Domain out - cft fees & payments (stg) (HTTP 400)!
+    Response was: {"error":{"code":400,"message":"Constraints violated.","constraintViolations":[{"path":"tsmMetricKey","message":"Tsm metric key must not begin or end with special character.","parameterLocation":"PAYLOAD_BODY","location":null}]}}, responsible config: nonprod-project/calculated-metrics-service/SSLDomainout-cftfeespaymentsstg.json
+2021-03-16 11:30:22 DEBUG 		Applying config `SSL Domain in - cft evidencemanagement (perf)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:22 DEBUG 			Updated existing object for SSL Domain in - cft evidencemanagement (perf) (calc:service.ssldomainin_cftevidencemanagement_perf)
+2021-03-16 11:30:22 DEBUG 		Applying config `SSL Domain out - cft divorce (perf)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:22 DEBUG 			Updated existing object for SSL Domain out - cft divorce (perf) (calc:service.ssldomainout_cftdivorce_perf)
+2021-03-16 11:30:22 DEBUG 		Applying config `SSL Domain in - cft divorce (perf)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:23 DEBUG 			Updated existing object for SSL Domain in - cft divorce (perf) (calc:service.ssldomainin_cftdivorce_perf)
+2021-03-16 11:30:23 DEBUG 		Applying config `SSL Domain in - cft bulk scan (perf)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:23 DEBUG 			Updated existing object for SSL Domain in - cft bulk scan (perf) (calc:service.ssldomainin_cftbulkscan_perf)
+2021-03-16 11:30:23 DEBUG 		Applying config `SSL Domain in - cft sscs (perf )` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:23 DEBUG 			Updated existing object for SSL Domain in - cft sscs (perf ) (calc:service.ssldomainin_cftsscs_perf)
+2021-03-16 11:30:23 DEBUG 		Applying config `SSL Domain in - cft immigration and asylum(perf)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:23 DEBUG 			Updated existing object for SSL Domain in - cft immigration and asylum(perf) (calc:service.ssldomainin_cftimmigrationandasylum_perf)
+2021-03-16 11:30:23 DEBUG 		Applying config `SSL Domain in - cft ecm (stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:23 DEBUG 			Updated existing object for SSL Domain in - cft ecm (stg) (calc:service.ssldomainin_cftecm_stg)
+2021-03-16 11:30:23 DEBUG 		Applying config `SSL Domain out - cft civil unspec (stg)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:23 DEBUG 			Updated existing object for SSL Domain out - cft civil unspec (stg) (calc:service.ssldomainout_cftcivilunspec_stg)
+2021-03-16 11:30:23 DEBUG 		Applying config `SSL Domain out - cft bulk print (perf)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:23 DEBUG 			Updated existing object for SSL Domain out - cft bulk print (perf) (calc:service.ssldomainout_cftbulkprint_perf)
+2021-03-16 11:30:23 DEBUG 		Applying config `SSL Domain out - cft ccd (perf)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:24 DEBUG 			Updated existing object for SSL Domain out - cft ccd (perf) (calc:service.ssldomainout_cftccd_perf)
+2021-03-16 11:30:24 DEBUG 		Applying config `SSL Domain in - cft fees & payments (stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:24 DEBUG 			Updated existing object for SSL Domain in - cft fees & payments (stg) (calc:service.ssldomainin_cftfees_payments_stg)
+2021-03-16 11:30:24 DEBUG 		Applying config `SSL Domain in - cft pcq (perf)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:24 DEBUG 			Updated existing object for SSL Domain in - cft pcq (perf) (calc:service.ssldomainin_cftpcq_perf)
+2021-03-16 11:30:24 DEBUG 		Applying config `SSL Domain out - cft fees payments(perf)` using nonprod-project/calculated-metrics-service/SSLDomainout-template.json
+2021-03-16 11:30:24 DEBUG 			Updated existing object for SSL Domain out - cft fees payments(perf) (calc:service.ssldomainout_cftfeespayments_perf)
+2021-03-16 11:30:24 DEBUG 		Applying config `SSL Domain in - cft elasticsearch (perf)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:24 DEBUG 			Updated existing object for SSL Domain in - cft elasticsearch (perf) (calc:service.ssldomainin_cftelasticsearch_perf)
+2021-03-16 11:30:24 DEBUG 		Applying config `SSL Domain in - cft access management (stg)` using nonprod-project/calculated-metrics-service/SSLDomainin-template.json
+2021-03-16 11:30:24 DEBUG 			Updated existing object for SSL Domain in - cft access management (stg) (calc:service.ssldomainin_cftaccessmanagement_stg)
+2021-03-16 11:30:24 INFO  Deployment summary:
+2021-03-16 11:30:24 ERROR Deployment to test1 finished with 3 error(s):
+2021-03-16 11:30:24 ERROR 	Failed to upsert DT object SVCOFF (HTTP 400)!
+    Response was: {"error":{"code":400,"message":"Constraints violated.","constraintViolations":[{"path":"rules[5].conditions[0].comparisonInfo.operator","message":"may not be null","parameterLocation":"PAYLOAD_BODY","location":null}]}}, responsible config: nonprod-project/management-zone/SVCOFF.json
+2021-03-16 11:30:24 ERROR 	Failed to upsert DT object SSL Domain in - cft bulk scan  (stg) (HTTP 400)!
+    Response was: {"error":{"code":400,"message":"Constraints violated.","constraintViolations":[{"path":"tsmMetricKey","message":"Tsm metric key must not begin or end with special character.","parameterLocation":"PAYLOAD_BODY","location":null}]}}, responsible config: nonprod-project/calculated-metrics-service/SSLDomainin-cftbulkscanstg.json
+2021-03-16 11:30:24 ERROR 	Failed to upsert DT object SSL Domain out - cft fees & payments (stg) (HTTP 400)!
+    Response was: {"error":{"code":400,"message":"Constraints violated.","constraintViolations":[{"path":"tsmMetricKey","message":"Tsm metric key must not begin or end with special character.","parameterLocation":"PAYLOAD_BODY","location":null}]}}, responsible config: nonprod-project/calculated-metrics-service/SSLDomainout-cftfeespaymentsstg.json
+2021-03-16 11:30:24 ERROR Errors during deployment! Check log!

@@ -1,0 +1,4 @@
+test1:
+    - name: "nonprod"
+    - env-url: "https://yrk32651.live.dynatrace.com"
+    - env-token-name: "nonprod_token"

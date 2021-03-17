@@ -1,0 +1,33 @@
+{
+ "dimensionalRules": [],
+ "metadata": {
+  "clusterVersion": "1.212.88.20210305-151445",
+  "configurationVersions": [
+   0
+  ]
+ },
+ "name": "{{.name}}",
+ "rules": [
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "INDEXED_NAME",
+      "value": "DTS-SHAREDSERVICES-DEV"
+     },
+     "key": {
+      "attribute": "AZURE_SUBSCRIPTION_NAME"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [
+    "AZURE_TO_PG",
+    "AZURE_TO_SERVICE"
+   ],
+   "type": "AZURE"
+  }
+ ]
+}

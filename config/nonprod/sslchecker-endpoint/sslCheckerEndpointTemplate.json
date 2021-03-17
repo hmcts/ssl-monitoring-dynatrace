@@ -1,0 +1,19 @@
+{
+  "id": "6691303106622817277",
+  "pluginId": "custom.remote.python.sslCheck",
+  "name": "fees & pay ",
+  "enabled": true,
+  "properties": {
+    "ExpirationDelta": "10",
+    "DomainsToIgnore": "",
+    "CertList": "",
+    "ClusterAddress": "https://yrk32651.live.dynatrace.com",
+    "ApiToken": "gugqxBDOQmGbxxDvZnpob",
+    "OutboundMetricNames": "calc:service.ssldomainout_cftfees_payments_stg_,calc:service.ssldomainout_ccd_stg,calc:service.ssldomainin_cftbulkscan_stg_",
+    "InboundMetricNames": "calc:service.ssldomainin_cftfees_payments_stg,calc:service.ssldomainin_ccd_stg"
+  },
+  "activeGatePluginModule": {
+    "id": "4579337562609868372",
+    "name": "activegate-nonprod-vmss000003"
+  }
+}

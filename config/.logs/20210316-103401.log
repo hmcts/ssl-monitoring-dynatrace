@@ -1,0 +1,4 @@
+2021-03-16 10:34:01 DEBUG request log not activated
+2021-03-16 10:34:01 DEBUG response log not activated
+2021-03-16 10:34:01 INFO  Dynatrace Monitoring as Code v1.5.0
+2021-03-16 10:34:01 ERROR Too many arguments! Either specify a relative path to the working directory, or omit it for using the current working directory.

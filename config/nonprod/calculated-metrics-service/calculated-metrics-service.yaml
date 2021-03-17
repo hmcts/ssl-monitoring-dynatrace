@@ -1,0 +1,476 @@
+config:
+    - SSLDomainin-cftbulkscanstg: SSLDomainin-cftbulkscanstg.json
+    - SSLDomainin-cftfeespaymentsstg: SSLDomainin-template.json
+    - SSLDomainin-cftccdstg: SSLDomainin-template.json
+    - SSLDomainout-cftccdstg: SSLDomainout-template.json
+    - SSLDomainin-cftccdperf: SSLDomainin-template.json
+    - SSLDomainout-cftccdperf: SSLDomainout-template.json
+    - SSLDomainin-cftaccessmanagementperf: SSLDomainin-template.json
+    - SSLDomainout-cftaccessmanagementperf: SSLDomainout-template.json
+    - SSLDomainin-cftaccessmanagementstg: SSLDomainin-template.json
+    - SSLDomainout-cftaccessmanagementstg: SSLDomainout-template.json
+    - SSLDomainin-cftbulkprintperf: SSLDomainin-template.json
+    - SSLDomainout-cftbulkprintperf: SSLDomainout-template.json
+    - SSLDomainin-cftbulkprintstg: SSLDomainin-template.json
+    - SSLDomainout-cftbulkprintstg: SSLDomainout-template.json
+    - SSLDomainin-cftbulkscanperf: SSLDomainin-template.json
+    - SSLDomainout-cftbulkscanperf: SSLDomainout-template.json
+    - SSLDomainin-cftbulkscanstg: SSLDomainin-template.json
+    - SSLDomainout-cftbulkscanstg: SSLDomainout-template.json
+    - SSLDomainin-cftbulkscanperf: SSLDomainin-template.json
+    - SSLDomainout-cftbulkscanperf: SSLDomainout-template.json
+    - SSLDomainin-cftcivilmoneyclaimsstg: SSLDomainin-template.json
+    - SSLDomainout-cftcivilmoneyclaimsstg: SSLDomainout-template.json
+    - SSLDomainin-cftcivilunspecstg: SSLDomainin-template.json
+    - SSLDomainout-cftcivilunspecstg: SSLDomainout-template.json
+    - SSLDomainin-cftdivorcestg: SSLDomainin-template.json
+    - SSLDomainout-cftdivorcestg: SSLDomainout-template.json
+    - SSLDomainin-cftdivorceperf: SSLDomainin-template.json
+    - SSLDomainout-cftdivorceperf: SSLDomainout-template.json
+    - SSLDomainin-cftecmldata: SSLDomainin-template.json
+    - SSLDomainout-cftecmldata: SSLDomainout-template.json
+    - SSLDomainin-cftecmstg: SSLDomainin-template.json
+    - SSLDomainout-cftecmstg: SSLDomainout-template.json
+    - SSLDomainin-cftecmperf: SSLDomainin-template.json
+    - SSLDomainout-cftecmperf: SSLDomainout-template.json
+    - SSLDomainin-cftelasticsearchstg: SSLDomainin-template.json
+    - SSLDomainout-cftelasticsearchstg: SSLDomainout-template.json
+    - SSLDomainin-cftelasticsearchperf: SSLDomainin-template.json
+    - SSLDomainout-cftelasticsearchperf: SSLDomainout-template.json
+    - SSLDomainin-cftevidencemanagementstg: SSLDomainin-template.json
+    - SSLDomainout-cftevidencemanagementstg: SSLDomainout-template.json
+    - SSLDomainin-cftevidencemanagementperf: SSLDomainin-template.json
+    - SSLDomainout-cftevidencemanagementperf: SSLDomainout-template.json
+    - SSLDomainin-cftfamilypubliclawstg: SSLDomainin-template.json
+    - SSLDomainout-cftfamilypubliclawstg: SSLDomainout-template.json
+    - SSLDomainin-cftfamilypubliclawperf: SSLDomainin-template.json
+    - SSLDomainout-cftfamilypubliclawperf: SSLDomainout-template.json
+    - SSLDomainout-cftfeespaymentsstg: SSLDomainout-template.json
+    - SSLDomainin-cftfeespaymentsperf: SSLDomainin-template.json
+    - SSLDomainout-cftfeespaymentsperf: SSLDomainout-template.json
+    - SSLDomainin-cftfinancialremedystg: SSLDomainin-template.json
+    - SSLDomainout-cftfinancialremedystg: SSLDomainout-template.json
+    - SSLDomainin-cftfinancialremedyperf: SSLDomainin-template.json
+    - SSLDomainout-cftfinancialremedyperf: SSLDomainout-template.json
+    - SSLDomainin-cftforgerockstg: SSLDomainin-template.json
+    - SSLDomainout-cftforgerockstg: SSLDomainout-template.json
+    - SSLDomainin-cftidamperf: SSLDomainin-template.json
+    - SSLDomainout-cftidamperf: SSLDomainout-template.json
+    - SSLDomainin-cftidamsbox: SSLDomainin-template.json
+    - SSLDomainout-cftidamsbox: SSLDomainout-template.json
+    - SSLDomainin-cftidamstg: SSLDomainin-template.json
+    - SSLDomainout-cftidamstg: SSLDomainout-template.json
+    - SSLDomainin-cftimmigrationandasylumstg: SSLDomainin-template.json
+    - SSLDomainout-cftimmigrationandasylumstg: SSLDomainout-template.json
+    - SSLDomainin-cftimmigrationandasylumperf: SSLDomainin-template.json
+    - SSLDomainout-cftimmigrationandasylumperf: SSLDomainout-template.json
+    - SSLDomainin-cftldata: SSLDomainin-template.json
+    - SSLDomainout-cftldata: SSLDomainout-template.json
+    - SSLDomainin-cftlegalrepcmcunspec: SSLDomainin-template.json
+    - SSLDomainout-cftlegalrepcmcunspec: SSLDomainout-template.json
+    - SSLDomainin-cftpalononprodldataperf: SSLDomainin-template.json
+    - SSLDomainout-cftpalononprodldataperf: SSLDomainout-template.json
+    - SSLDomainin-cftpcqstg: SSLDomainin-template.json
+    - SSLDomainout-cftpcqstg: SSLDomainout-template.json
+    - SSLDomainin-cftpcqperf: SSLDomainin-template.json
+    - SSLDomainout-cftpcqperf: SSLDomainout-template.json
+    - SSLDomainin-cftprobatestg: SSLDomainin-template.json
+    - SSLDomainout-cftprobatestg: SSLDomainout-template.json
+    - SSLDomainin-cftprobateperf: SSLDomainin-template.json
+    - SSLDomainout-cftprobateperf: SSLDomainout-template.json
+    - SSLDomainin-cftprofessionalreferencedataestg: SSLDomainin-template.json
+    - SSLDomainout-cftprofessionalreferencedataestg: SSLDomainout-template.json
+    - SSLDomainin-cftprofessionalreferencedataeperf: SSLDomainin-template.json
+    - SSLDomainout-cftprofessionalreferencedataeperf: SSLDomainout-template.json
+    - SSLDomainin-cftsscsstg: SSLDomainin-template.json
+    - SSLDomainout-cftsscsstg: SSLDomainout-template.json
+    - SSLDomainin-cftsscsperf: SSLDomainin-template.json
+    - SSLDomainout-cftsscsperf: SSLDomainout-template.json
+    - SSLDomainin-cftxuistg: SSLDomainin-template.json
+    - SSLDomainout-cftxuistg: SSLDomainout-template.json
+    - SSLDomainin-cftxuiperf: SSLDomainin-template.json
+    - SSLDomainout-cftxuiperf: SSLDomainout-template.json
+    - SSLDomainin-crimecpnft: SSLDomainin-template.json
+    - SSLDomainout-crimecpnft: SSLDomainout-template.json
+    - SSLDomainin-crimeidamnft: SSLDomainin-template.json
+    - SSLDomainout-crimeidamnft: SSLDomainout-template.json
+    - SSLDomainin-crimerotanft: SSLDomainin-template.json
+    - SSLDomainout-crimerotanft: SSLDomainout-template.json
+    SSLDomainin-cftbulkscanstg:
+    - name: SSL Domain in - cft bulk scan  (stg)
+    SSLDomainin-cftfeespaymentsstg:
+    - name: SSL Domain in - cft fees & payments (stg)
+    - mgmtzone: nonprod/management-zone/CFT-FeesPayments-Staging.name
+    - metric_key: calc:service.ssldomainin_cftfees_payments_stg
+    SSLDomainout-cftfeespaymentsstg:
+    - name: SSL Domain out - cft fees & payments (stg)
+    - mgmtzone: nonprod/management-zone/CFT-FeesPayments-Staging.name
+    - metric_key: calc:service.ssldomainout_cftfees_payments_stg_
+    SSLDomainin-cftccdstg:
+    - name: SSL Domain in - ccd (stg)
+    - mgmtzone: nonprod/management-zone/CFT-CCD-Staging.name
+    - metric_key: calc:service.ssldomainin_ccd_stg
+    SSLDomainout-cftccdstg:
+    - name: SSL Domain out - ccd (stg)
+    - mgmtzone: nonprod/management-zone/CFT-CCD-Staging.name
+    - metric_key: calc:service.ssldomainout_ccd_stg
+    SSLDomainin-cftccdperf:
+    - name: SSL Domain in - ccd (perf)
+    - mgmtzone: nonprod/management-zone/CFT-CCD-Perf.name
+    - metric_key: calc:service.ssldomainin_ccd_perf
+    SSLDomainout-cftccdperf:
+    - name: SSL Domain out - ccd (perf)
+    - mgmtzone: nonprod/management-zone/CFT-CCD-Perf.name
+    - metric_key: calc:service.ssldomainout_ccd_perf
+    SSLDomainin-cftaccessmanagementperf:
+    - name: SSL Domain in - cft access management (perf)
+    - mgmtzone: nonprod/management-zone/CFT-AccessManagement-Perf.name
+    - metric_key: calc:service.ssldomainin_cftaccessmanagement_perf
+    SSLDomainout-cftaccessmanagementperf:
+    - name: SSL Domain out - cft access management (perf)
+    - mgmtzone: nonprod/management-zone/CFT-AccessManagement-Perf.name
+    - metric_key: calc:service.ssldomainout_cftaccessmanagement_perf
+    SSLDomainin-cftaccessmanagementstg:
+    - name: SSL Domain in - cft access management (stg)
+    - mgmtzone: nonprod/management-zone/CFT-AccessManagement-Staging.name
+    - metric_key: calc:service.ssldomainin_cftaccessmanagement_stg
+    SSLDomainout-cftaccessmanagementstg:
+    - name: SSL Domain out - cft access management (stg)
+    - mgmtzone: nonprod/management-zone/CFT-AccessManagement-Staging.name
+    - metric_key: calc:service.ssldomainout_cftaccessmanagement_stg
+    SSLDomainin-cftbulkprintstg:
+    - name: SSL Domain in - cft bulk print (stg)
+    - mgmtzone: nonprod/management-zone/CFT-Bulkprint-Staging.name
+    - metric_key: calc:service.ssldomainin_cftbulkprint_stg
+    SSLDomainout-cftbulkprintstg:
+    - name: SSL Domain out - cft bulk print (stg)
+    - mgmtzone: nonprod/management-zone/CFT-Bulkprint-Staging.name
+    - metric_key: calc:service.ssldomainout_cftbulkprint_stg
+    SSLDomainin-cftbulkprintperf:
+    - name: SSL Domain in - cft bulk print (perf)
+    - mgmtzone: nonprod/management-zone/CFT-Bulkprint-Perf.name
+    - metric_key: calc:service.ssldomainin_cftbulkprint_perf
+    SSLDomainout-cftbulkprintperf:
+    - name: SSL Domain out - cft bulk print (perf)
+    - mgmtzone: nonprod/management-zone/CFT-Bulkprint-Perf.name
+    - metric_key: calc:service.ssldomainout_cftbulkprint_perf
+    SSLDomainin-cftbulkscanperf:
+    - name: SSL Domain in - cft bulk scan (perf)
+    - mgmtzone: nonprod/management-zone/CFT-BulkScan-Perf.name
+    - metric_key: calc:service.ssldomainin_cftbulkscan_perf
+    SSLDomainout-cftbulkscanperf:
+    - name: SSL Domain out - cft bulk print (perf)
+    - mgmtzone: nonprod/management-zone/CFT-BulkScan-Perf.name
+    - metric_key: calc:service.ssldomainout_cftbulkscan_perf
+    SSLDomainin-cftbulkscanstg:
+    - name: SSL Domain in - cft bulk scan (stg)
+    - mgmtzone: nonprod/management-zone/CFT-BulkScan-Staging.name
+    - metric_key: calc:service.ssldomainin_cftbulkscan_stg
+    SSLDomainout-cftbulkscanstg:
+    - name: SSL Domain out - cft bulk scan (stg)
+    - mgmtzone: nonprod/management-zone/CFT-BulkScan-Staging.name
+    - metric_key: calc:service.ssldomainout_cftbulkscan_stg
+    SSLDomainin-cftccdperf:
+    - name: SSL Domain in - cft ccd (perf)
+    - mgmtzone: nonprod/management-zone/CFT-CCD-Perf.name
+    - metric_key: calc:service.ssldomainin_cftccd_perf
+    SSLDomainout-cftccdperf:
+    - name: SSL Domain out - cft ccd (perf)
+    - mgmtzone: nonprod/management-zone/CFT-CCD-Perf.name
+    - metric_key: calc:service.ssldomainout_cftccd_perf
+    SSLDomainin-cftccdstg:
+    - name: SSL Domain in - cft ccd (stg)
+    - mgmtzone: nonprod/management-zone/CFT-CCD-Staging.name
+    - metric_key: calc:service.ssldomainin_cftccd_stg
+    SSLDomainout-cftccdstg:
+    - name: SSL Domain out - cft ccd (stg)
+    - mgmtzone: nonprod/management-zone/CFT-CCD-Staging.name
+    - metric_key: calc:service.ssldomainout_cftccd_stg
+    SSLDomainin-cftcivilmoneyclaimsstg:
+    - name: SSL Domain in - cft civil money claims (stg)
+    - mgmtzone: nonprod/management-zone/CFT-CivilMoneyClaims-Staging.name
+    - metric_key: calc:service.ssldomainin_cftcivilmoneyclaims_stg
+    SSLDomainout-cftcivilmoneyclaimsstg:
+    - name: SSL Domain out - cft civil money claims (stg)
+    - mgmtzone: nonprod/management-zone/CFT-CivilMoneyClaims-Staging.name
+    - metric_key: calc:service.ssldomainout_cftcivilmoneyclaims_stg
+    SSLDomainin-cftcivilunspecstg:
+    - name: SSL Domain in - cft civil unspec (stg)
+    - mgmtzone: nonprod/management-zone/CFT-CivilUnspec-Staging.name
+    - metric_key: calc:service.ssldomainin_cftcivilunspec_stg
+    SSLDomainout-cftcivilunspecstg:
+    - name: SSL Domain out - cft civil unspec (stg)
+    - mgmtzone: nonprod/management-zone/CFT-CivilUnspec-Staging.name
+    - metric_key: calc:service.ssldomainout_cftcivilunspec_stg
+    SSLDomainin-cftdivorcestg:
+    - name: SSL Domain in - cft divorce (stg)
+    - mgmtzone: nonprod/management-zone/CFT-Divorce-Staging.name
+    - metric_key: calc:service.ssldomainin_cftdivorce_stg
+    SSLDomainout-cftdivorcestg:
+    - name: SSL Domain out - cft divorce (stg)
+    - mgmtzone: nonprod/management-zone/CFT-Divorce-Staging.name
+    - metric_key: calc:service.ssldomainout_cftdivorce_stg
+    SSLDomainin-cftdivorceperf:
+    - name: SSL Domain in - cft divorce (perf)
+    - mgmtzone: nonprod/management-zone/CFT-Divorce-Perf.name
+    - metric_key: calc:service.ssldomainin_cftdivorce_perf
+    SSLDomainout-cftdivorceperf:
+    - name: SSL Domain out - cft divorce (perf)
+    - mgmtzone: nonprod/management-zone/CFT-Divorce-Perf.name
+    - metric_key: calc:service.ssldomainout_cftdivorce_perf
+    SSLDomainin-cftecmldata:
+    - name: SSL Domain in - cft ecm ldata
+    - mgmtzone: nonprod/management-zone/CFT-ECM-LDATA.name
+    - metric_key: calc:service.ssldomainin_cftecmldata
+    SSLDomainout-cftecmldata:
+    - name: SSL Domain out - cft ecm ldata
+    - mgmtzone: nonprod/management-zone/CFT-ECM-LDATA.name
+    - metric_key: calc:service.ssldomainout_cftecmldata
+    SSLDomainin-cftecmstg:
+    - name: SSL Domain in - cft ecm (stg)
+    - mgmtzone: nonprod/management-zone/CFT-ECM-Staging.name
+    - metric_key: calc:service.ssldomainin_cftecm_stg
+    SSLDomainout-cftecmstg:
+    - name: SSL Domain out - cft ecm (stg)
+    - mgmtzone: nonprod/management-zone/CFT-ECM-Staging.name
+    - metric_key: calc:service.ssldomainout_ccftecm_stg
+    SSLDomainin-cftecmperf:
+    - name: SSL Domain in - cft ecm (perf)
+    - mgmtzone: nonprod/management-zone/CFT-ECM-Perf.name
+    - metric_key: calc:service.ssldomainin_cftecm_perf
+    SSLDomainout-cftecmperf:
+    - name: SSL Domain out - cft ecm (perf)
+    - mgmtzone: nonprod/management-zone/CFT-ECM-Perf.name
+    - metric_key: calc:service.ssldomainout_ccftecm_perf
+    SSLDomainin-cftelasticsearchstg:
+    - name: SSL Domain in - cft elasticsearch (stg)
+    - mgmtzone: nonprod/management-zone/CFT-Elasticsearch-Staging.name
+    - metric_key: calc:service.ssldomainin_cftelasticsearch_stg
+    SSLDomainout-cftelasticsearchstg:
+    - name: SSL Domain out - cft elasticsearch (stg)
+    - mgmtzone: nonprod/management-zone/CFT-Elasticsearch-Staging.name
+    - metric_key: calc:service.ssldomainout_cftelasticsearch_stg
+    SSLDomainin-cftelasticsearchperf:
+    - name: SSL Domain in - cft elasticsearch (perf)
+    - mgmtzone: nonprod/management-zone/CFT-Elasticsearch-Perf.name
+    - metric_key: calc:service.ssldomainin_cftelasticsearch_perf
+    SSLDomainout-cftelasticsearchperf:
+    - name: SSL Domain out - cft elasticsearch (perf)
+    - mgmtzone: nonprod/management-zone/CFT-Elasticsearch-Perf.name
+    - metric_key: calc:service.ssldomainout_cftelasticsearch_perf
+    SSLDomainin-cftevidencemanagementstg:
+    - name: SSL Domain in - cft evidencemanagement (stg)
+    - mgmtzone: nonprod/management-zone/CFT-EvidenceManagement-Staging.name
+    - metric_key: calc:service.ssldomainin_cftevidencemanagement_stg
+    SSLDomainout-cftevidencemanagementstg:
+    - name: SSL Domain out - cft evidencemanagement (stg)
+    - mgmtzone: nonprod/management-zone/CFT-EvidenceManagement-Staging.name
+    - metric_key: calc:service.ssldomainout_cftevidencemanagement_stg
+    SSLDomainin-cftevidencemanagementperf:
+    - name: SSL Domain in - cft evidencemanagement (perf)
+    - mgmtzone: nonprod/management-zone/CFT-EvidenceManagement-Perf.name
+    - metric_key: calc:service.ssldomainin_cftevidencemanagement_perf
+    SSLDomainout-cftevidencemanagementperf:
+    - name: SSL Domain out - cft evidencemanagement (perf)
+    - mgmtzone: nonprod/management-zone/CFT-EvidenceManagement-Perf.name
+    - metric_key: calc:service.ssldomainout_cftevidencemanagement_perf
+    SSLDomainin-cftfamilypubliclawstg:
+    - name: SSL Domain in - cft family public law(stg)
+    - mgmtzone: nonprod/management-zone/CFT-FamilyPublicLaw-Staging.name
+    - metric_key: calc:service.ssldomainin_cftfamilypubliclaw_stg
+    SSLDomainout-cftfamilypubliclawstg:
+    - name: SSL Domain out - cft family public law(stg)
+    - mgmtzone: nonprod/management-zone/CFT-FamilyPublicLaw-Staging.name
+    - metric_key: calc:service.ssldomainout_cftfamilypubliclaw_stg
+    SSLDomainin-cftfamilypubliclawperf:
+    - name: SSL Domain in - cft family public law(perf)
+    - mgmtzone: nonprod/management-zone/CFT-FamilyPublicLaw-Perf.name
+    - metric_key: calc:service.ssldomainin_cftfamilypubliclaw_perf
+    SSLDomainout-cftfamilypubliclawperf:
+    - name: SSL Domain out - cft family public law(perf)
+    - mgmtzone: nonprod/management-zone/CFT-FamilyPublicLaw-Perf.name
+    - metric_key: calc:service.ssldomainout_cftfamilypubliclaw_perf
+    SSLDomainin-cftfeespaymentsperf:
+    - name: SSL Domain in - cft fees payments(perf)
+    - mgmtzone: nonprod/management-zone/CFT-FamilyPublicLaw-Perf.name
+    - metric_key: calc:service.ssldomainin_cftfeespayments_perf
+    SSLDomainout-cftfeespaymentsperf:
+    - name: SSL Domain out - cft fees payments(perf)
+    - mgmtzone: nonprod/management-zone/CFT-FamilyPublicLaw-Perf.name
+    - metric_key: calc:service.ssldomainout_cftfeespayments_perf
+    SSLDomainin-cftfinancialremedystg:
+    - name: SSL Domain in - cft financial remedy(stg)
+    - mgmtzone: nonprod/management-zone/CFT-FinancialRemedy-Staging.name
+    - metric_key: calc:service.ssldomainin_cftfinancialremedy_stg
+    SSLDomainout-cftfinancialremedystg:
+    - name: SSL Domain out - cft financial remedy(stg)
+    - mgmtzone: nonprod/management-zone/CFT-FinancialRemedy-Staging.name
+    - metric_key: calc:service.ssldomainout_cftfinancialremedy_stg
+    SSLDomainin-cftfinancialremedyperf:
+    - name: SSL Domain in - cft financial remedy(perf)
+    - mgmtzone: nonprod/management-zone/CFT-FinancialRemedy-Perf.name
+    - metric_key: calc:service.ssldomainin_cftfinancialremedy_perf
+    SSLDomainout-cftfinancialremedyperf:
+    - name: SSL Domain out - cft financial remedy(perf)
+    - mgmtzone: nonprod/management-zone/CFT-FinancialRemedy-Perf.name
+    - metric_key: calc:service.ssldomainout_cftfinancialremedy_perf
+    SSLDomainin-cftforgerockstg:
+    - name: SSL Domain in - cft forge rock(stg)
+    - mgmtzone: nonprod/management-zone/CFT-Forgerock-Staging.name
+    - metric_key: calc:service.ssldomainin_cftforgerock_stg
+    SSLDomainout-cftforgerockstg:
+    - name: SSL Domain out - cft forge rock(stg)
+    - mgmtzone: nonprod/management-zone/CFT-Forgerock-Staging.name
+    - metric_key: calc:service.ssldomainout_cftforgerock_stg
+    SSLDomainin-cftidamperf:
+    - name: SSL Domain in - cft idam(perf)
+    - mgmtzone: nonprod/management-zone/CFT-IDAM-Perf.name
+    - metric_key: calc:service.ssldomainin_cftidam_perf
+    SSLDomainout-cftidamperf:
+    - name: SSL Domain out - cft idam(perf)
+    - mgmtzone: nonprod/management-zone/CFT-IDAM-Perf.name
+    - metric_key: calc:service.ssldomainout_cftidam_perf
+    SSLDomainin-cftidamsbox:
+    - name: SSL Domain in - cft idam(sbox)
+    - mgmtzone: nonprod/management-zone/CFT-IDAM-Sandbox.name
+    - metric_key: calc:service.ssldomainin_cftidam_sbox
+    SSLDomainout-cftidamsbox:
+    - name: SSL Domain out - cft idam(sbox)
+    - mgmtzone: nonprod/management-zone/CFT-IDAM-Sandbox.name
+    - metric_key: calc:service.ssldomainout_cftidam_sbox
+    SSLDomainin-cftidamstg:
+    - name: SSL Domain in - cft idam(stg)
+    - mgmtzone: nonprod/management-zone/CFT-IDAM-Sandbox.name
+    - metric_key: calc:service.ssldomainin_cftidam_stg
+    SSLDomainout-cftidamstg:
+    - name: SSL Domain out - cft idam(stg)
+    - mgmtzone: nonprod/management-zone/CFT-IDAM-Sandbox.name
+    - metric_key: calc:service.ssldomainout_cftidam_stg
+    SSLDomainin-cftimmigrationandasylumperf:
+    - name: SSL Domain in - cft immigration and asylum(perf)
+    - mgmtzone: nonprod/management-zone/CFT-ImmigrationandAsylum-Perf.name
+    - metric_key: calc:service.ssldomainin_cftimmigrationandasylum_perf
+    SSLDomainout-cftimmigrationandasylumperf:
+    - name: SSL Domain out - cft immigration and asylum(perf)
+    - mgmtzone: nonprod/management-zone/CFT-ImmigrationandAsylum-Perf.name
+    - metric_key: calc:service.ssldomainout_cftimmigrationandasylum_perf
+    SSLDomainin-cftimmigrationandasylumstg:
+    - name: SSL Domain in - cft immigration and asylum(stg)
+    - mgmtzone: nonprod/management-zone/CFT-ImmigrationandAsylum-Staging.name
+    - metric_key: calc:service.ssldomainin_cftimmigrationandasylum_stg
+    SSLDomainout-cftimmigrationandasylumstg:
+    - name: SSL Domain out - cft immigration and asylum(stg)
+    - mgmtzone: nonprod/management-zone/CFT-ImmigrationandAsylum-Staging.name
+    - metric_key: calc:service.ssldomainout_cftimmigrationandasylum_stg
+    SSLDomainin-cftldata:
+    - name: SSL Domain in - cft ldata
+    - mgmtzone: nonprod/management-zone/CFT-LDATA.name
+    - metric_key: calc:service.ssldomainin_cftldata
+    SSLDomainout-cftldata:
+    - name: SSL Domain out - cft ldata
+    - mgmtzone: nonprod/management-zone/CFT-LDATA.name
+    - metric_key: calc:service.ssldomainout_cftldata
+    SSLDomainin-cftlegalrepcmcunspec:
+    - name: SSL Domain in - cft legalrep cmc unspec
+    - mgmtzone: nonprod/management-zone/CFT-LegalRepCMCUnspec.name
+    - metric_key: calc:service.ssldomainin_cftlegalrepcmcunspec
+    SSLDomainout-cftlegalrepcmcunspec:
+    - name: SSL Domain out - cft legalrep cmc unspec
+    - mgmtzone: nonprod/management-zone/CFT-LegalRepCMCUnspec.name
+    - metric_key: calc:service.ssldomainout_cftlegalrepcmcunspec
+    SSLDomainin-cftpalononprodldataperf:
+    - name: SSL Domain in - cft palo nonprod ldata (perf)
+    - mgmtzone: nonprod/management-zone/CFT-PaloNon-ProdPerfLDATA.name
+    - metric_key: calc:service.ssldomainin_cftpalononprodldata_perf
+    SSLDomainout-cftpalononprodldataperf:
+    - name: SSL Domain out - cft palo nonprod ldata (perf)
+    - mgmtzone: nonprod/management-zone/CFT-PaloNon-ProdPerfLDATA.name
+    - metric_key: calc:service.ssldomainout_cftpalononprodldata_perf
+    SSLDomainin-cftpcqperf:
+    - name: SSL Domain in - cft pcq (perf)
+    - mgmtzone: nonprod/management-zone/CFT-PCQ-Perf.name
+    - metric_key: calc:service.ssldomainin_cftpcq_perf
+    SSLDomainout-cftpcqperf:
+    - name: SSL Domain out - cft pcq (perf)
+    - mgmtzone: nonprod/management-zone/CFT-PCQ-Perf.name
+    - metric_key: calc:service.ssldomainout_cftpcq_perf
+    SSLDomainin-cftpcqstg:
+    - name: SSL Domain in - cft pcq (stg)
+    - mgmtzone: nonprod/management-zone/CFT-PCQ-Staging.name
+    - metric_key: calc:service.ssldomainin_cftpcq_stg
+    SSLDomainout-cftpcqstg:
+    - name: SSL Domain out - cft pcq (stg)
+    - mgmtzone: nonprod/management-zone/CFT-PCQ-Staging.name
+    - metric_key: calc:service.ssldomainout_cftpcq_stg
+    SSLDomainin-cftperf:
+    - name: SSL Domain in - cft (perf)
+    - mgmtzone: nonprod/management-zone/CFT-PCQ-Perf.name
+    - metric_key: calc:service.ssldomainin_cft_perf
+    SSLDomainout-cftperf:
+    - name: SSL Domain out - cft (perf)
+    - mgmtzone: nonprod/management-zone/CFT-PCQ-Perf.name
+    - metric_key: calc:service.ssldomainout_cft_perf
+    SSLDomainin-cftprobateperf:
+    - name: SSL Domain in - cft probate (perf)
+    - mgmtzone: nonprod/management-zone/CFT-Probate-Perf.name
+    - metric_key: calc:service.ssldomainin_cftprobate_perf
+    SSLDomainout-cftprobateperf:
+    - name: SSL Domain out - cft probate (perf)
+    - mgmtzone: nonprod/management-zone/CFT-Probate-Perf.name
+    - metric_key: calc:service.ssldomainout_cftprobate_perf
+    SSLDomainin-cftprobatestg:
+    - name: SSL Domain in - cft probate (stg)
+    - mgmtzone: nonprod/management-zone/CFT-Probate-Staging.name
+    - metric_key: calc:service.ssldomainin_cftprobate_stg
+    SSLDomainout-cftprobatestg:
+    - name: SSL Domain out - cft probate (stg)
+    - mgmtzone: nonprod/management-zone/CFT-Probate-Staging.name
+    - metric_key: calc:service.ssldomainout_cftprobate_stg
+    SSLDomainin-cftprofessionalreferencedataeperf:
+    - name: SSL Domain in - cft professional reference data (perf)
+    - mgmtzone: nonprod/management-zone/CFT-ProfessionalReferenceData-Perf.name
+    - metric_key: calc:service.ssldomainin_cftprofessionalreferencedatae_perf
+    SSLDomainout-cftprofessionalreferencedataeperf:
+    - name: SSL Domain out - cft professional reference data (perf)
+    - mgmtzone: nonprod/management-zone/CFT-ProfessionalReferenceData-Perf.name
+    - metric_key: calc:service.ssldomainout_cftprofessionalreferencedatae_perf
+    SSLDomainin-cftprofessionalreferencedataestg:
+    - name: SSL Domain in - cft professional reference data (stg)
+    - mgmtzone: nonprod/management-zone/CFT-ProfessionalReferenceData-Staging.name
+    - metric_key: calc:service.ssldomainin_cftprofessionalreferencedatae_stg
+    SSLDomainout-cftprofessionalreferencedataestg:
+    - name: SSL Domain out - cft professional reference data (stg)
+    - mgmtzone: nonprod/management-zone/CFT-ProfessionalReferenceData-Staging.name
+    - metric_key: calc:service.ssldomainout_cftprofessionalreferencedatae_stg
+    SSLDomainin-cftsscsperf:
+    - name: SSL Domain in - cft sscs (perf )
+    - mgmtzone: nonprod/management-zone/CFT-SSCS-Perf.name
+    - metric_key: calc:service.ssldomainin_cftsscs_perf
+    SSLDomainout-cftsscsperf:
+    - name: SSL Domain out - cft sscs (perf )
+    - mgmtzone: nonprod/management-zone/CFT-SSCS-Perf.name
+    - metric_key: calc:service.ssldomainout_cftsscs_perf
+    SSLDomainin-cftsscsstg:
+    - name: SSL Domain in - cft sscs (stg )
+    - mgmtzone: nonprod/management-zone/CFT-SSCS-Staging.name
+    - metric_key: calc:service.ssldomainin_cftsscs_stg
+    SSLDomainout-cftsscsstg:
+    - name: SSL Domain out - cft sscs (stg )
+    - mgmtzone: nonprod/management-zone/CFT-SSCS-Staging.name
+    - metric_key: calc:service.ssldomainout_cftsscs_stg
+    SSLDomainin-cftxuiperf:
+    - name: SSL Domain in - cft xui (perf )
+    - mgmtzone: nonprod/management-zone/CFT-XUI-Perf.name
+    - metric_key: calc:service.ssldomainin_cftxui_perf
+    SSLDomainout-cftxuiperf:
+    - name: SSL Domain out - cft xui (perf )
+    - mgmtzone: nonprod/management-zone/CFT-XUI-Perf.name
+    - metric_key: calc:service.ssldomainout_cftxui_perf
+    SSLDomainin-cftxuistg:
+    - name: SSL Domain in - cft xui (stg )
+    - mgmtzone: nonprod/management-zone/CFT-XUI-Staging.name
+    - metric_key: calc:service.ssldomainin_cftxui_stg
+    SSLDomainout-cftxuistg:
+    - name: SSL Domain out - cft xui (stg )
+    - mgmtzone: nonprod/management-zone/CFT-XUI-Staging.name
+    - metric_key: calc:service.ssldomainout_cftxui_stg    
