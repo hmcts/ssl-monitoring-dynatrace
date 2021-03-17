@@ -7,7 +7,7 @@ jobs:
     pool:
       vmImage: 'Ubuntu 16.04'
     strategy:
-    matrix:
+     matrix:
       Python38:
         python.version: '3.8'
     steps:
