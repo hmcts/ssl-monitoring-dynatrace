@@ -1,0 +1,28 @@
+trigger: none
+# Don't run against PRs
+pr: none
+
+jobs:
+  - job: run_monaco_deploy
+    pool:
+      vmImage: 'Ubuntu 16.04'
+    strategy:
+    matrix:
+      Python38:
+        python.version: '3.8'
+    steps:
+    - task: AzureCLI@2
+      displayName: 'Update Dynatrace config'
+      inputs:
+        scriptType: bash
+        scriptLocation: scriptPath
+        azureSubscription: '$(azureSubscription)'
+        scriptPath: config/deploy.sh
+    - task: PythonScript@0
+      inputs:
+        scriptSource: 'filePath' 
+        scriptPath: config/updateendpoints.py
+        #arguments: # Optional
+        #pythonInterpreter: # Optional
+        #workingDirectory: # Optional
+        #failOnStderr: false # Optional
