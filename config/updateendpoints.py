@@ -12,24 +12,6 @@ parsed_yaml_file = yaml.load(a_yaml_file, Loader=yaml.FullLoader)
 #for token in parsed_yaml_file:
  #       print(token)
 
-from typing import Iterable, Any, Tuple
-def signal_last(it:Iterable[Any]) -> Iterable[Tuple[bool, Any]]:
-    iterable = iter(it)
-    ret_var = next(iterable)
-    for val in iterable:
-        yield False, ret_var
-        ret_var = val
-    yield True, ret_var
-
-def special_function(var):
-   print("Special function var is:"+var)
-
-def not_so_special_function(var):
-   print("Not so Special function var is:"+var)
-
-
-
-
 csm_metrickeys_domainin = ''
 csm_metrickeys_domainout = ''
 for doc in parsed_yaml_file["config"]:
