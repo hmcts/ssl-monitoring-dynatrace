@@ -5,13 +5,10 @@ pr: none
 jobs:
   - job: run_monaco_deploy
     container: dynatraceace/monaco-runner:release-v1.1.0
-      resources:
-        requests:
-          cpu: 100m
-          memory: 500Mi
+     resources:
         limits:
-          cpu: 250m
           memory: 1Gi
+        reservations: 500Mi
     strategy:
      matrix:
       Python38:
