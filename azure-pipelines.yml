@@ -7,10 +7,6 @@ jobs:
     container: 
       image: dynatraceace/monaco-runner:release-v1.1.0
       options: --memory="1Gi"
-     resources:
-        limits:
-          memory: 1Gi
-        reservations: 500Mi
     strategy:
      matrix:
       Python38:
