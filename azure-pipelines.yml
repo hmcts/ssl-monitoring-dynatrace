@@ -6,7 +6,7 @@ jobs:
   - job: run_monaco_deploy
     container: 
       image: dynatraceace/monaco-runner:release-v1.1.0
-      options: --memory="1Gi"
+      options: --memory="4Gi"
     strategy:
      matrix:
       Python38:
