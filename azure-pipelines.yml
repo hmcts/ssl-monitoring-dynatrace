@@ -4,20 +4,13 @@ pr: none
 
 jobs:
   - job: run_monaco_deploy
-    pool:
-      vmImage: 'Ubuntu 16.04'
+    container: dynatraceace/monaco-runner:release-v1.1.0
     strategy:
      matrix:
       Python38:
         python.version: '3.8'
     steps:
-    - task: AzureCLI@2
-      displayName: 'Update Dynatrace config'
-      inputs:
-        scriptType: bash
-        scriptLocation: scriptPath
-        azureSubscription: '$(azureSubscription)'
-        scriptPath: config/deploy.sh
+    - script: printenv
     - task: PythonScript@0
       inputs:
         scriptSource: 'filePath' 
