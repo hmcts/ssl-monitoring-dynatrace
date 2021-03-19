@@ -6,7 +6,7 @@ jobs:
   - job: run_monaco_deploy
     container: 
       image: nginx
-      options: --memory="4Gi" --cpus="4"
+      options: --memory="4Gi" --cpus="2"
     strategy:
      matrix:
       Python38:
