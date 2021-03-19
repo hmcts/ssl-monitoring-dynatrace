@@ -5,7 +5,7 @@ pr: none
 jobs:
   - job: run_monaco_deploy
     container: 
-      image: nginx
+      image: dynatraceace/monaco-runner:latest
       options: --memory="4Gi" --cpus="2"
     strategy:
      matrix:
