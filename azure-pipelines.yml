@@ -4,20 +4,13 @@ pr: none
 
 jobs:
   - job: run_monaco_deploy
-    container: 
-      image: dynatraceace/monaco-runner:latest
-      options: --memory="4Gi" --cpus="2"
-    strategy:
-     matrix:
-      Python38:
-        python.version: '3.8'
+    pool:
+      vmImage: 'Ubuntu 18.04'
     steps:
-    - script: printenv
-    - task: PythonScript@0
+    - task: AzureCLI@2
+      displayName: 'Monaco deploy and update endpoint'
       inputs:
-        scriptSource: 'filePath' 
-        scriptPath: config/updateendpoints.py
-        #arguments: # Optional
-        #pythonInterpreter: # Optional
-        #workingDirectory: # Optional
-        #failOnStderr: false # Optional
+        scriptType: bash
+        scriptLocation: scriptPath
+        azureSubscription: '$(azureSubscription)'
+        scriptPath: scripts/deploy.sh
