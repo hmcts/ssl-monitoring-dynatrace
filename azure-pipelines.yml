@@ -12,5 +12,5 @@ jobs:
       inputs:
         scriptType: bash
         scriptLocation: scriptPath
-        azureSubscription: '$(azureSubscription)'
+        azureSubscription: 'DCD-CNP-DEV'
         scriptPath: config/deploy.sh
