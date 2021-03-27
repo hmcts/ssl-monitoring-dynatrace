@@ -12,4 +12,5 @@ jobs:
       inputs:
         scriptType: bash
         scriptLocation: scriptPath
+        azureSubscription: '$(azureSubscription)'
         scriptPath: config/deploy.sh
