@@ -1,4 +1,10 @@
 trigger: none
+- task: AzureKeyVault@1
+  inputs:
+    azureSubscription: 'DTS-CFTPTL-INTSVC'
+    KeyVaultName: 'cftptl-intsvc'
+    SecretsFilter: 'dynatrace-api-key-yrk32651,dynatrace-api-key-ebe20728'
+    RunAsPreJob: true
 # Don't run against PRs
 pr: none
 
