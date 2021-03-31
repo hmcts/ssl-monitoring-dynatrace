@@ -16,10 +16,10 @@ jobs:
         RunAsPreJob: true
     - task: AzureCLI@2
       displayName: 'Monaco deploy and update endpoint'
+      env:
+        nonprod_token: $(dynatrace-api-key-yrk32651)
       inputs:
         scriptType: bash
         scriptLocation: scriptPath
         azureSubscription: 'DCD-CNP-DEV'
         scriptPath: config/deploy.sh
-        env:
-          token: $(dynatrace-api-key-yrk32651)
