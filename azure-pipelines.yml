@@ -14,6 +14,8 @@ jobs:
         KeyVaultName: 'cftptl-intsvc'
         SecretsFilter: 'dynatrace-api-key-yrk32651,dynatrace-api-key-ebe20728'
         RunAsPreJob: true
+        env:
+          token: $(dynatrace-api-key-yrk32651)
     - task: AzureCLI@2
       displayName: 'Monaco deploy and update endpoint'
       inputs:
