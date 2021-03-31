@@ -4,4 +4,4 @@ MONACO_DOWNLOAD_URL="https://github.com/dynatrace-oss/dynatrace-monitoring-as-co
 sudo curl -SL $MONACO_DOWNLOAD_URL -o /usr/bin/monaco
 sudo chmod +x /usr/bin/monaco
 
-/usr/bin/monaco --environments "/home/vsts/work/1/s/config/dynatrace-environments.yaml" --project "/home/vsts/work/1/s/config/nonprod" --continue-on-error="true"
+/usr/bin/monaco --environments "/home/vsts/work/1/s/config/dynatrace-environments.yaml" --project nonprod --continue-on-error="true"
