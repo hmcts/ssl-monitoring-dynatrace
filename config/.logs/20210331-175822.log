@@ -1,0 +1,150 @@
+2021-03-31 17:58:22 DEBUG request log not activated
+2021-03-31 17:58:22 DEBUG response log not activated
+2021-03-31 17:58:22 INFO  Dynatrace Monitoring as Code v1.5.0
+2021-03-31 17:58:22 DEBUG Reading projects...
+2021-03-31 17:58:22 DEBUG   project - nonprod
+2021-03-31 17:58:22 DEBUG Processing file: nonprod/calculated-metrics-service/calculated-metrics-service.yaml
+2021-03-31 17:58:22 DEBUG Processing file: nonprod/management-zone/management-zone.yaml
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftfeespaymentsperf has dep on nonprod/management-zone/CFT-FamilyPublicLaw-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftfeespaymentsperf has dep on nonprod/management-zone/CFT-FamilyPublicLaw-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftfamilypubliclawperf has dep on nonprod/management-zone/CFT-FamilyPublicLaw-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftfamilypubliclawperf has dep on nonprod/management-zone/CFT-FamilyPublicLaw-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftprobateperf has dep on nonprod/management-zone/CFT-Probate-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftprobateperf has dep on nonprod/management-zone/CFT-Probate-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftxuiperf has dep on nonprod/management-zone/CFT-XUI-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftxuiperf has dep on nonprod/management-zone/CFT-XUI-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftcivilmoneyclaimsstg has dep on nonprod/management-zone/CFT-CivilMoneyClaims-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftcivilmoneyclaimsstg has dep on nonprod/management-zone/CFT-CivilMoneyClaims-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftlegalrepcmcunspec has dep on nonprod/management-zone/CFT-LegalRepCMCUnspec
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftlegalrepcmcunspec has dep on nonprod/management-zone/CFT-LegalRepCMCUnspec
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftbulkprintstg has dep on nonprod/management-zone/CFT-Bulkprint-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftbulkprintstg has dep on nonprod/management-zone/CFT-Bulkprint-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftbulkscanstg has dep on nonprod/management-zone/CFT-BulkScan-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftbulkscanstg has dep on nonprod/management-zone/CFT-BulkScan-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftidamperf has dep on nonprod/management-zone/CFT-IDAM-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftidamperf has dep on nonprod/management-zone/CFT-IDAM-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftaccessmanagementperf has dep on nonprod/management-zone/CFT-AccessManagement-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftaccessmanagementperf has dep on nonprod/management-zone/CFT-AccessManagement-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftldata has dep on nonprod/management-zone/CFT-LDATA
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftldata has dep on nonprod/management-zone/CFT-LDATA
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftbulkprintperf has dep on nonprod/management-zone/CFT-Bulkprint-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftbulkprintperf has dep on nonprod/management-zone/CFT-Bulkprint-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftevidencemanagementstg has dep on nonprod/management-zone/CFT-EvidenceManagement-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftevidencemanagementstg has dep on nonprod/management-zone/CFT-EvidenceManagement-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftcivilunspecstg has dep on nonprod/management-zone/CFT-CivilUnspec-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftcivilunspecstg has dep on nonprod/management-zone/CFT-CivilUnspec-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftprofessionalreferencedataeperf has dep on nonprod/management-zone/CFT-ProfessionalReferenceData-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftprofessionalreferencedataeperf has dep on nonprod/management-zone/CFT-ProfessionalReferenceData-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftfeespaymentsstg has dep on nonprod/management-zone/CFT-FeesPayments-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftelasticsearchstg has dep on nonprod/management-zone/CFT-Elasticsearch-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftelasticsearchstg has dep on nonprod/management-zone/CFT-Elasticsearch-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftecmldata has dep on nonprod/management-zone/CFT-ECM-LDATA
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftecmldata has dep on nonprod/management-zone/CFT-ECM-LDATA
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftccdstg has dep on nonprod/management-zone/CFT-CCD-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftccdstg has dep on nonprod/management-zone/CFT-CCD-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftaccessmanagementstg has dep on nonprod/management-zone/CFT-AccessManagement-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftaccessmanagementstg has dep on nonprod/management-zone/CFT-AccessManagement-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftsscsstg has dep on nonprod/management-zone/CFT-SSCS-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftsscsstg has dep on nonprod/management-zone/CFT-SSCS-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftfamilypubliclawstg has dep on nonprod/management-zone/CFT-FamilyPublicLaw-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftfamilypubliclawstg has dep on nonprod/management-zone/CFT-FamilyPublicLaw-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftecmperf has dep on nonprod/management-zone/CFT-ECM-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftecmperf has dep on nonprod/management-zone/CFT-ECM-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftfinancialremedystg has dep on nonprod/management-zone/CFT-FinancialRemedy-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftfinancialremedystg has dep on nonprod/management-zone/CFT-FinancialRemedy-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftccdperf has dep on nonprod/management-zone/CFT-CCD-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftccdperf has dep on nonprod/management-zone/CFT-CCD-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftpcqstg has dep on nonprod/management-zone/CFT-PCQ-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftpcqstg has dep on nonprod/management-zone/CFT-PCQ-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftforgerockstg has dep on nonprod/management-zone/CFT-Forgerock-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftforgerockstg has dep on nonprod/management-zone/CFT-Forgerock-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftfinancialremedyperf has dep on nonprod/management-zone/CFT-FinancialRemedy-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftfinancialremedyperf has dep on nonprod/management-zone/CFT-FinancialRemedy-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftprobatestg has dep on nonprod/management-zone/CFT-Probate-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftprobatestg has dep on nonprod/management-zone/CFT-Probate-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftpalononprodldataperf has dep on nonprod/management-zone/CFT-PaloNon-ProdPerfLDATA
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftpalononprodldataperf has dep on nonprod/management-zone/CFT-PaloNon-ProdPerfLDATA
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftpcqperf has dep on nonprod/management-zone/CFT-PCQ-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftpcqperf has dep on nonprod/management-zone/CFT-PCQ-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftevidencemanagementperf has dep on nonprod/management-zone/CFT-EvidenceManagement-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftevidencemanagementperf has dep on nonprod/management-zone/CFT-EvidenceManagement-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftprofessionalreferencedataestg has dep on nonprod/management-zone/CFT-ProfessionalReferenceData-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftprofessionalreferencedataestg has dep on nonprod/management-zone/CFT-ProfessionalReferenceData-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftbulkscanperf has dep on nonprod/management-zone/CFT-BulkScan-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftbulkscanperf has dep on nonprod/management-zone/CFT-BulkScan-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftsscsperf has dep on nonprod/management-zone/CFT-SSCS-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftsscsperf has dep on nonprod/management-zone/CFT-SSCS-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftelasticsearchperf has dep on nonprod/management-zone/CFT-Elasticsearch-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftelasticsearchperf has dep on nonprod/management-zone/CFT-Elasticsearch-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftimmigrationandasylumstg has dep on nonprod/management-zone/CFT-ImmigrationandAsylum-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftimmigrationandasylumstg has dep on nonprod/management-zone/CFT-ImmigrationandAsylum-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftidamsbox has dep on nonprod/management-zone/CFT-IDAM-Sandbox
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftidamstg has dep on nonprod/management-zone/CFT-IDAM-Sandbox
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftidamsbox has dep on nonprod/management-zone/CFT-IDAM-Sandbox
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftidamstg has dep on nonprod/management-zone/CFT-IDAM-Sandbox
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftimmigrationandasylumperf has dep on nonprod/management-zone/CFT-ImmigrationandAsylum-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftimmigrationandasylumperf has dep on nonprod/management-zone/CFT-ImmigrationandAsylum-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftxuistg has dep on nonprod/management-zone/CFT-XUI-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftxuistg has dep on nonprod/management-zone/CFT-XUI-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftdivorcestg has dep on nonprod/management-zone/CFT-Divorce-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftdivorcestg has dep on nonprod/management-zone/CFT-Divorce-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftdivorceperf has dep on nonprod/management-zone/CFT-Divorce-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftdivorceperf has dep on nonprod/management-zone/CFT-Divorce-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftecmstg has dep on nonprod/management-zone/CFT-ECM-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainout-cftecmstg has dep on nonprod/management-zone/CFT-ECM-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-AccessManagement-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-LegalRepCMCUnspec
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-Elasticsearch-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-CivilMoneyClaims-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-BulkScan-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-SSCS-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-ProfessionalReferenceData-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-LDATA
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-IDAM-Sandbox
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-IDAM-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-FamilyPublicLaw-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-CivilUnspec-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-Bulkprint-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-XUI-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-Probate-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-EvidenceManagement-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-ECM-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-AccessManagement-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-XUI-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-PaloNon-ProdPerfLDATA
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-Forgerock-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-FinancialRemedy-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-Divorce-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-Elasticsearch-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-EvidenceManagement-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-ProfessionalReferenceData-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-FinancialRemedy-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-Bulkprint-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-ECM-LDATA
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-FeesPayments-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-Probate-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-ImmigrationandAsylum-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-ECM-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-Divorce-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-CCD-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-FamilyPublicLaw-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-CCD-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-PCQ-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-PCQ-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-ImmigrationandAsylum-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-SSCS-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-BulkScan-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/Crime
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-IDAM-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CrimeCPMDV
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/DTS-CVP-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/Crime-ROTANFT
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-FeesPayments-Perf
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/DTS-CVP-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/DTS-HMI-Dev
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/Crime-IdAM-NFT
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/CFT-Staging
+2021-03-31 17:58:22 DEBUG 		nonprod/management-zone/Crime-CPNFT
+2021-03-31 17:58:22 DEBUG 		nonprod/calculated-metrics-service/SSLDomainin-cftaccessmanagementperf
