@@ -1,8 +1,0 @@
-2021-03-31 17:07:38 DEBUG request log not activated
-2021-03-31 17:07:38 DEBUG response log not activated
-2021-03-31 17:07:38 INFO  Dynatrace Monitoring as Code v1.5.0
-2021-03-31 17:07:38 DEBUG Reading projects...
-2021-03-31 17:07:38 DEBUG   project - nonprod
-2021-03-31 17:07:38 DEBUG Processing file: nonprod/calculated-metrics-service/calculated-metrics-service.yaml
-2021-03-31 17:07:38 DEBUG Processing file: nonprod/management-zone/management-zone.yaml
-2021-03-31 17:07:38 ERROR Could not create configSVCOFF: loading config nonprod/SVCOFF failed with open nonprod/management-zone/SVCOFF.json: no such file or directory
