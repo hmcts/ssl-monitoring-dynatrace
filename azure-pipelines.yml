@@ -8,9 +8,9 @@ jobs:
     pool:
       vmImage: 'Ubuntu 18.04'
     strategy:
-    matrix:
-      Python38:
-        python.version: '3.8'
+      matrix:
+        Python38:
+          python.version: '3.8'
     steps:
     - task: AzureKeyVault@1
       inputs:
