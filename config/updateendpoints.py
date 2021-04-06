@@ -12,7 +12,7 @@ base_url="https://yrk32651.live.dynatrace.com"
 plugin_module_id="4579337562609868372"
 activegate_instance_name="activegate-nonprod-vmss000003"
 
-a_yaml_file = open("./nonprod/calculated-metrics-service/calculated-metrics-service-copy.yaml")
+a_yaml_file = open("../nonprod/calculated-metrics-service/calculated-metrics-service.yaml")
 parsed_yaml_file = yaml.load(a_yaml_file, Loader=yaml.FullLoader)
 #for token in parsed_yaml_file:
  #       print(token)
@@ -29,7 +29,7 @@ for doc in parsed_yaml_file["config"]:
                 else: 
                  csm_metrickeys_domainout=csm_metrickeys_domainout+y+","
 
-dynatrace_api_key = os.environ["DYNATRACE_API_KEY"]
+dynatrace_api_key = os.environ["api_key"]
 dynatrace_registration_method = "PUT"
 dynatrace_req_headers = {"Authorization": "Api-token {}".format(dynatrace_api_key)}
 dynatrace_req_headers["Content-Type"] = "application/json"
