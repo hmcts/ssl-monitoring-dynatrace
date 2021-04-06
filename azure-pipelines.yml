@@ -31,7 +31,7 @@ jobs:
     - task: UsePythonVersion@0
       inputs:
         versionSpec: '$(python.version)'
-    - script: pip3 install requests
+    - script: pip3 install requests yaml json os
       displayName: 'Install tools'
     - task: PythonScript@0
       displayName: 'Update ssl plugin endpoint'
