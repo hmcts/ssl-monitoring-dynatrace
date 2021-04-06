@@ -7,6 +7,10 @@ jobs:
   - job: run_monaco_deploy
     pool:
       vmImage: 'Ubuntu 18.04'
+    strategy:
+    matrix:
+      Python38:
+        python.version: '3.8'
     steps:
     - task: AzureKeyVault@1
       inputs:
@@ -24,6 +28,11 @@ jobs:
         scriptLocation: scriptPath
         azureSubscription: 'DCD-CNP-DEV'
         scriptPath: config/deploy.sh
+    - task: UsePythonVersion@0
+      inputs:
+        versionSpec: '$(python.version)'
+    - script: python3 -m pip3 install requests
+      displayName: 'Install tools'
     - task: PythonScript@0
       displayName: 'Update ssl plugin endpoint'
       inputs:
