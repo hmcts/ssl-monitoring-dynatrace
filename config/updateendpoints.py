@@ -12,7 +12,7 @@ base_url="https://yrk32651.live.dynatrace.com"
 plugin_module_id="4579337562609868372"
 activegate_instance_name="activegate-nonprod-vmss000003"
 
-a_yaml_file = open("../nonprod/calculated-metrics-service/calculated-metrics-service.yaml")
+a_yaml_file = open("nonprod/calculated-metrics-service/calculated-metrics-service.yaml")
 parsed_yaml_file = yaml.load(a_yaml_file, Loader=yaml.FullLoader)
 #for token in parsed_yaml_file:
  #       print(token)
