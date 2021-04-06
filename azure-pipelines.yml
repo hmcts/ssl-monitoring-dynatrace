@@ -18,6 +18,7 @@ jobs:
       displayName: 'Monaco deploy and update endpoint'
       env:
         nonprod_token: $(dynatrace-api-key-yrk32651)
+        NEW_CLI: "1"
       inputs:
         scriptType: bash
         scriptLocation: scriptPath
