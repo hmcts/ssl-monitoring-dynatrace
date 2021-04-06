@@ -35,6 +35,8 @@ jobs:
       displayName: 'Install tools'
     - task: PythonScript@0
       displayName: 'Update ssl plugin endpoint'
+      env:
+        api_key: $(dynatrace-api-key-yrk32651)
       inputs:
         scriptSource: filePath # Options: filePath, inline
         scriptPath: config/updateendpoints.py
