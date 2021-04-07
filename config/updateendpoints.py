@@ -6,8 +6,13 @@ import json
 import os
 from urllib import request as url_request
 
+dynatrace_plugin="custom.remote.python.sslCheck"
+endpointname= "fees & pay"
+base_url="https://yrk32651.live.dynatrace.com"
+plugin_module_id="4579337562609868372"
+activegate_instance_name="activegate-nonprod-vmss000003"
 
-a_yaml_file = open("./nonprod/calculated-metrics-service/calculated-metrics-service-copy.yaml")
+a_yaml_file = open("nonprod/calculated-metrics-service/calculated-metrics-service.yaml")
 parsed_yaml_file = yaml.load(a_yaml_file, Loader=yaml.FullLoader)
 #for token in parsed_yaml_file:
  #       print(token)
@@ -24,24 +29,20 @@ for doc in parsed_yaml_file["config"]:
                 else: 
                  csm_metrickeys_domainout=csm_metrickeys_domainout+y+","
 
-print(csm_metrickeys_domainin)
-print(csm_metrickeys_domainout)
-
-dynatrace_api_key = os.environ["DYNATRACE_API_KEY"]
-filepath = './nonprod/sslchecker-endpoint/sslCheckerEndpointTemplate.json'
-with open(filepath) as fh:
-   mydata = fh.read()
-   data_json = json.loads(mydata)
-   for k,v in data_json["properties"].items():
-        if k=='OutboundMetricNames':
-           v+=csm_metrickeys_domainout
-        if k=='InboundMetricNames':
-           v+=csm_metrickeys_domainin
-   print(data_json)
-   response = requests.put('https://yrk32651.live.dynatrace.com/api/config/v1/plugins/custom.remote.python.sslCheck/endpoints/6691303106622817277',
-      data=mydata,                         
-      headers={'content-type':'application/json','Authorization{}'.format(dynatrace_api_key)},
-      params={'file': filepath},
-      allow_redirects=True
-    )
-   print(response)
+dynatrace_api_key = os.environ["api_key"]
+dynatrace_registration_method = "PUT"
+dynatrace_req_headers = {"Authorization": "Api-token {}".format(dynatrace_api_key)}
+dynatrace_req_headers["Content-Type"] = "application/json"
+dynatrace_registration_req_data = {"pluginId": dynatrace_plugin, "name": endpointname, "enabled": True,
+                                    "properties": {"ClusterAddress": base_url,
+                                                  "ExpirationDelta": "10", "DomainsToIgnore": "",
+                                                  "ApiToken": "{}".format(dynatrace_api_key),"OutboundMetricNames":csm_metrickeys_domainout,"InboundMetricNames":csm_metrickeys_domainout},
+                                    "activeGatePluginModule": {"id": plugin_module_id, "name": activegate_instance_name}}
+dynatrace_registration_data = json.dumps(dynatrace_registration_req_data).encode("utf-8")
+dynatrace_registration_url = 'https://yrk32651.live.dynatrace.com/api/config/v1/plugins/custom.remote.python.sslCheck/endpoints/6691303106622817277'
+dynatrace_registration_req = url_request.Request(url=dynatrace_registration_url,
+                                                  data=dynatrace_registration_data,
+                                                  headers=dynatrace_req_headers, method=dynatrace_registration_method)
+                                                  
+with url_request.urlopen(dynatrace_registration_req, timeout=120) as response:
+    print("Plugin endpoint {} complete: status={}, reason={}".format(dynatrace_registration_method, response.status, response.reason))

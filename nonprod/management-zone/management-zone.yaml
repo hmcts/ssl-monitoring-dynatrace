@@ -2,7 +2,6 @@ config:
 - CFT-AccessManagement-Perf: CFT-AccessManagement-Perf.json
 - CFT-LDATA: CFT-LDATA.json
 - CFT-BulkScan-Staging: CFT-BulkScan-Staging.json
-- SVCOFF: SVCOFF.json
 - CFT-ProfessionalReferenceData-Staging: CFT-ProfessionalReferenceData-Staging.json
 - CFT-IDAM-Sandbox: CFT-IDAM-Sandbox.json
 - CFT-FinancialRemedy-Perf: CFT-FinancialRemedy-Perf.json
@@ -165,5 +164,3 @@ DTS-CVP-Staging:
 - name: DTS - CVP - Staging
 DTS-HMI-Dev:
 - name: DTS - HMI - Dev
-SVCOFF:
-- name: SVCOFF

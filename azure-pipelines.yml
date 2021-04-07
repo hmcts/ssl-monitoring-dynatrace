@@ -1,0 +1,46 @@
+trigger: none
+
+# Don't run against PRs
+pr: none
+
+jobs:
+  - job: run_monaco_deploy
+    pool:
+      vmImage: 'Ubuntu 18.04'
+    strategy:
+      matrix:
+        Python38:
+          python.version: '3.8'
+    steps:
+    - task: AzureKeyVault@1
+      inputs:
+        azureSubscription: 'DTS-CFTPTL-INTSVC'
+        KeyVaultName: 'cftptl-intsvc'
+        SecretsFilter: 'dynatrace-api-key-yrk32651,dynatrace-api-key-ebe20728'
+        RunAsPreJob: true
+
+    - task: AzureCLI@2
+      displayName: 'Monaco deploy'
+      env:
+        nonprod_token: $(dynatrace-api-key-yrk32651)
+        NEW_CLI: "1"
+      inputs:
+        scriptType: bash
+        scriptLocation: scriptPath
+        azureSubscription: 'DCD-CNP-DEV'
+        scriptPath: config/deploy.sh
+
+    - task: UsePythonVersion@0
+      inputs:
+        versionSpec: '$(python.version)'
+
+    - script: pip install requests pyaml
+      displayName: 'install python distributions'
+
+    - task: PythonScript@0
+      displayName: 'Update ssl plugin endpoint'
+      env:
+        api_key: $(dynatrace-api-key-yrk32651)
+      inputs:
+        scriptSource: filePath
+        scriptPath: config/updateendpoints.py
