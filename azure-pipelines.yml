@@ -18,6 +18,7 @@ jobs:
         KeyVaultName: 'cftptl-intsvc'
         SecretsFilter: 'dynatrace-api-key-yrk32651,dynatrace-api-key-ebe20728'
         RunAsPreJob: true
+
     - task: AzureCLI@2
       displayName: 'Monaco deploy'
       env:
@@ -28,15 +29,18 @@ jobs:
         scriptLocation: scriptPath
         azureSubscription: 'DCD-CNP-DEV'
         scriptPath: config/deploy.sh
+
     - task: UsePythonVersion@0
       inputs:
         versionSpec: '$(python.version)'
+
     - script: pip install requests pyaml
-      displayName: 'Install tools'
+      displayName: 'install python distributions'
+
     - task: PythonScript@0
       displayName: 'Update ssl plugin endpoint'
       env:
         api_key: $(dynatrace-api-key-yrk32651)
       inputs:
-        scriptSource: filePath # Options: filePath, inline
+        scriptSource: filePath
         scriptPath: config/updateendpoints.py
